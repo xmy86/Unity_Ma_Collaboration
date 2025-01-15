@@ -1,0 +1,282 @@
+Timestamp: 0.00
+Evader Position: (-3.50, 0.00, -3.50), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (3.50, 0.00, 3.50), Velocity: (0.00, 0.00, 0.00)
+Target Position: (0.00, 0.00, 0.00)
+Laser Active: True
+
+Timestamp: 0.10
+Evader Position: (-2.98, 0.05, -2.98), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (3.50, -0.03, 3.50), Velocity: (0.00, -0.22, 0.00)
+Target Position: (-1.06, 0.30, -0.95)
+Laser Active: True
+
+Timestamp: 0.20
+Evader Position: (-2.92, 0.05, -2.91), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (3.46, -0.05, 3.52), Velocity: (-0.77, -0.01, 0.31)
+Target Position: (-1.06, 0.30, -0.95)
+Laser Active: True
+
+Timestamp: 0.30
+Evader Position: (-2.81, 0.05, -2.80), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (3.34, -0.05, 3.53), Velocity: (-1.38, 0.00, -0.12)
+Target Position: (-1.06, 0.30, -0.95)
+Laser Active: True
+
+Timestamp: 0.40
+Evader Position: (-2.67, 0.05, -2.65), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (3.14, -0.05, 3.43), Velocity: (-1.94, 0.00, -1.46)
+Target Position: (-1.06, 0.30, -0.95)
+Laser Active: True
+
+Timestamp: 0.50
+Evader Position: (-3.00, 0.05, -3.00), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (3.00, 0.00, 3.00), Velocity: (-0.10, -0.17, 0.08)
+Target Position: (0.17, 0.30, 0.46)
+Laser Active: True
+
+Timestamp: 0.60
+Evader Position: (-2.97, 0.05, -2.97), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.90, -0.03, 3.02), Velocity: (-1.24, -0.19, 0.03)
+Target Position: (0.17, 0.30, 0.46)
+Laser Active: True
+
+Timestamp: 0.70
+Evader Position: (-2.90, 0.05, -2.89), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.68, -0.05, 2.92), Velocity: (-1.85, -0.13, -1.50)
+Target Position: (0.17, 0.30, 0.46)
+Laser Active: True
+
+Timestamp: 0.80
+Evader Position: (-2.79, 0.05, -2.77), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.47, -0.05, 2.71), Velocity: (-1.52, 0.00, -1.62)
+Target Position: (0.17, 0.30, 0.46)
+Laser Active: True
+
+Timestamp: 0.90
+Evader Position: (-2.64, 0.05, -2.61), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.31, -0.05, 2.60), Velocity: (-0.47, 0.00, -0.04)
+Target Position: (0.17, 0.30, 0.46)
+Laser Active: True
+
+Timestamp: 1.00
+Evader Position: (-2.99, 0.05, -3.00), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (3.00, -0.01, 3.00), Velocity: (0.00, -0.16, 0.00)
+Target Position: (2.63, 0.30, -2.86)
+Laser Active: True
+
+Timestamp: 1.10
+Evader Position: (-2.94, 0.05, -3.00), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (3.00, -0.03, 3.00), Velocity: (0.00, -0.16, 0.00)
+Target Position: (2.63, 0.30, -2.86)
+Laser Active: True
+
+Timestamp: 1.20
+Evader Position: (-2.82, 0.05, -3.00), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (3.00, -0.05, 2.99), Velocity: (0.12, -0.02, -0.16)
+Target Position: (2.63, 0.30, -2.86)
+Laser Active: True
+
+Timestamp: 1.30
+Evader Position: (-2.65, 0.05, -2.99), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (3.03, -0.05, 2.92), Velocity: (0.19, 0.00, -0.80)
+Target Position: (2.63, 0.30, -2.86)
+Laser Active: True
+
+Timestamp: 1.40
+Evader Position: (-2.41, 0.05, -2.99), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (3.02, -0.05, 2.75), Velocity: (-0.41, 0.00, -1.38)
+Target Position: (2.63, 0.30, -2.86)
+Laser Active: True
+
+Timestamp: 1.50
+Evader Position: (-2.11, 0.05, -2.98), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.86, -0.05, 2.52), Velocity: (-1.20, 0.00, -1.57)
+Target Position: (2.63, 0.30, -2.86)
+Laser Active: True
+
+Timestamp: 1.60
+Evader Position: (-1.76, 0.05, -2.97), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.76, -0.05, 2.36), Velocity: (-0.01, 0.00, -0.01)
+Target Position: (2.63, 0.30, -2.86)
+Laser Active: True
+
+Timestamp: 1.71
+Evader Position: (-1.36, 0.05, -2.96), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.75, -0.05, 2.36), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.63, 0.30, -2.86)
+Laser Active: True
+
+Timestamp: 1.81
+Evader Position: (-0.95, 0.05, -2.95), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.75, -0.05, 2.36), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.63, 0.30, -2.86)
+Laser Active: True
+
+Timestamp: 1.91
+Evader Position: (-0.55, 0.05, -2.94), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.75, -0.05, 2.36), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.63, 0.30, -2.86)
+Laser Active: True
+
+Timestamp: 2.01
+Evader Position: (-0.15, 0.05, -2.93), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.75, -0.05, 2.36), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.63, 0.30, -2.86)
+Laser Active: True
+
+Timestamp: 2.11
+Evader Position: (0.25, 0.05, -2.92), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.75, -0.05, 2.36), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.63, 0.30, -2.86)
+Laser Active: True
+
+Timestamp: 2.21
+Evader Position: (0.65, 0.05, -2.91), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.75, -0.05, 2.36), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.63, 0.30, -2.86)
+Laser Active: True
+
+Timestamp: 2.31
+Evader Position: (1.05, 0.05, -2.90), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.75, -0.05, 2.36), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.63, 0.30, -2.86)
+Laser Active: True
+
+Timestamp: 2.41
+Evader Position: (1.45, 0.05, -2.89), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.75, -0.05, 2.36), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.63, 0.30, -2.86)
+Laser Active: True
+
+Timestamp: 2.51
+Evader Position: (1.85, 0.05, -2.88), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.76, -0.05, 2.36), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.63, 0.30, -2.86)
+Laser Active: True
+
+Timestamp: 2.61
+Evader Position: (2.20, 0.05, -2.87), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.76, -0.05, 2.36), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.63, 0.30, -2.86)
+Laser Active: True
+
+Timestamp: 2.71
+Evader Position: (-2.99, 0.05, -2.98), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (3.02, -0.02, 2.90), Velocity: (0.00, -0.10, -0.74)
+Target Position: (-1.49, 0.30, 0.57)
+Laser Active: True
+
+Timestamp: 2.81
+Evader Position: (-2.96, 0.05, -2.90), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.90, -0.04, 2.68), Velocity: (-0.95, -0.11, -1.13)
+Target Position: (-1.49, 0.30, 0.57)
+Laser Active: True
+
+Timestamp: 2.91
+Evader Position: (-2.90, 0.05, -2.77), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.68, -0.05, 2.46), Velocity: (-0.97, 0.00, -0.87)
+Target Position: (-1.49, 0.30, 0.57)
+Laser Active: True
+
+Timestamp: 3.01
+Evader Position: (-2.82, 0.05, -2.58), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.66, -0.05, 2.44), Velocity: (0.08, 0.00, -0.06)
+Target Position: (-1.49, 0.30, 0.57)
+Laser Active: True
+
+Timestamp: 3.11
+Evader Position: (-2.72, 0.05, -2.34), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.67, -0.05, 2.44), Velocity: (0.08, 0.00, -0.07)
+Target Position: (-1.49, 0.30, 0.57)
+Laser Active: True
+
+Timestamp: 3.21
+Evader Position: (-2.98, 0.05, -2.99), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (3.02, -0.02, 2.97), Velocity: (0.11, -0.08, -0.31)
+Target Position: (-1.16, 0.30, -1.66)
+Laser Active: True
+
+Timestamp: 3.31
+Evader Position: (-2.91, 0.05, -2.94), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (3.00, -0.04, 2.79), Velocity: (-0.29, -0.08, -0.81)
+Target Position: (-1.16, 0.30, -1.66)
+Laser Active: True
+
+Timestamp: 3.41
+Evader Position: (-2.80, 0.05, -2.85), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.81, -0.05, 2.57), Velocity: (-0.77, 0.00, -0.76)
+Target Position: (-1.16, 0.30, -1.66)
+Laser Active: True
+
+Timestamp: 3.51
+Evader Position: (-2.63, 0.05, -2.73), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.66, -0.05, 2.44), Velocity: (-0.18, 0.00, 0.13)
+Target Position: (-1.16, 0.30, -1.66)
+Laser Active: True
+
+Timestamp: 3.61
+Evader Position: (-2.42, 0.05, -2.58), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.67, -0.05, 2.43), Velocity: (0.08, 0.00, -0.08)
+Target Position: (-1.16, 0.30, -1.66)
+Laser Active: True
+
+Timestamp: 3.71
+Evader Position: (-2.99, 0.05, -2.99), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.87, -0.01, 2.95), Velocity: (-0.82, -0.08, -0.41)
+Target Position: (1.51, 0.30, 2.64)
+Laser Active: True
+
+Timestamp: 3.81
+Evader Position: (-2.94, 0.05, -2.94), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.64, -0.04, 2.73), Velocity: (-0.70, -0.08, -0.86)
+Target Position: (1.51, 0.30, 2.64)
+Laser Active: True
+
+Timestamp: 3.91
+Evader Position: (-2.84, 0.05, -2.84), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.48, -0.05, 2.57), Velocity: (-0.17, 0.00, -0.04)
+Target Position: (1.51, 0.30, 2.64)
+Laser Active: True
+
+Timestamp: 4.01
+Evader Position: (-2.71, 0.05, -2.71), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.45, -0.05, 2.57), Velocity: (-0.11, 0.00, -0.02)
+Target Position: (1.51, 0.30, 2.64)
+Laser Active: True
+
+Timestamp: 4.11
+Evader Position: (-2.53, 0.05, -2.53), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.43, -0.05, 2.56), Velocity: (-0.05, 0.00, -0.01)
+Target Position: (1.51, 0.30, 2.64)
+Laser Active: True
+
+Timestamp: 4.21
+Evader Position: (-2.99, 0.05, -2.99), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.95, -0.01, 3.02), Velocity: (-0.34, -0.06, 0.07)
+Target Position: (-0.42, 0.30, -0.04)
+Laser Active: True
+
+Timestamp: 4.31
+Evader Position: (-2.94, 0.05, -2.93), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.74, -0.04, 2.97), Velocity: (-0.67, -0.06, -0.35)
+Target Position: (-0.42, 0.30, -0.04)
+Laser Active: True
+
+Timestamp: 4.41
+Evader Position: (-2.85, 0.05, -2.83), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.52, -0.05, 2.75), Velocity: (-0.51, 0.00, -0.62)
+Target Position: (-0.42, 0.30, -0.04)
+Laser Active: True
+
+Timestamp: 4.51
+Evader Position: (-2.73, 0.05, -2.68), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.37, -0.05, 2.60), Velocity: (-0.14, 0.00, -0.05)
+Target Position: (-0.42, 0.30, -0.04)
+Laser Active: True
+
+Timestamp: 4.61
+Evader Position: (-2.56, 0.05, -2.49), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.33, -0.05, 2.59), Velocity: (-0.11, 0.00, -0.03)
+Target Position: (-0.42, 0.30, -0.04)
+Laser Active: True
+

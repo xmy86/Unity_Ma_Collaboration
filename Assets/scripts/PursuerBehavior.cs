@@ -232,12 +232,21 @@ public class ChaserAgent : MonoBehaviour
         pursuerRb.velocity *= dragFactor;
     }
 
+    private void AvoidObstacle()
+    {
+        float randomTurn = UnityEngine.Random.Range(-1f, 1f);
+        transform.Rotate(0, randomTurn * turnSpeed * Time.deltaTime, 0);
+        transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
+
+        Debug.Log("Avoiding obstacle");
+    }
+
     public void Initialize()
     {
-        transform.localPosition = new Vector3(UnityEngine.Random.Range(-5f, 5f), 0f, UnityEngine.Random.Range(-5f, 5f));
-        transform.localRotation = Quaternion.Euler(0f, UnityEngine.Random.Range(0f, 360f), 0f);
-        evader.localPosition = new Vector3(UnityEngine.Random.Range(-5f, 5f), 0f, UnityEngine.Random.Range(-5f, 5f));
-        evader.localRotation = Quaternion.Euler(0f, UnityEngine.Random.Range(0f, 360f), 0f);
+        transform.localPosition = new Vector3(3f, 0f, 3f); // Pursuer 的位置
+        transform.localRotation = Quaternion.Euler(0f, UnityEngine.Random.Range(0f, 360f), 0f); // Pursuer 的随机方向
+        evader.localPosition = new Vector3(-3f, 0f, -3f); // Evader 的位置
+        evader.localRotation = Quaternion.Euler(0f, UnityEngine.Random.Range(0f, 360f), 0f); // Evader 的随机方向
         if (GetComponent<Rigidbody>() != null)
         {
             GetComponent<Rigidbody>().velocity = Vector3.zero;
@@ -359,27 +368,29 @@ public class ChaserAgent : MonoBehaviour
             {
                 "self" => agent.transform,
                 "evader" => agent.evader,
+                "barrier" => agent.distanceSensor, // 假设障碍物由激光测距器检测
                 _ => throw new Exception($"Unknown entity: {entityName}")
             };
         }
 
         private static void ExecuteAction(string action, ChaserAgent agent)
         {
-            if (action == "Caught")
+            switch (action)
             {
-                agent.Caught();
-            }
-            else if (action == "MoveTowardsTarget")
-            {
-                agent.MoveTowardsTarget(agent.evader.position);
-            }
-            else if (action == "FireLaser")
-            {
-                agent.FireLaser(); // 发射激光
-            }
-            else
-            {
-                throw new Exception($"Unknown action: {action}");
+                case "Caught":
+                    agent.Caught();
+                    break;
+                case "FireLaser":
+                    agent.FireLaser();
+                    break;
+                case "MoveTowardsTarget":
+                    agent.MoveTowardsTarget(agent.evader.position);
+                    break;
+                case "AvoidObstacle":
+                    agent.AvoidObstacle();
+                    break;
+                default:
+                    throw new Exception($"Unknown action: {action}");
             }
         }
     }

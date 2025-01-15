@@ -1,4 +1,12 @@
 {
+  "type": "DecisionNode",
+  "condition": "LaserDistanceToEntity",
+  "args": ["barrier", "0.5"],
+  "trueNode": {
+    "type": "ActionNode",
+    "action": "AvoidObstacle"
+  },
+  "falseNode": {
     "type": "DecisionNode",
     "condition": "LaserDistanceToEntity",
     "args": ["evader", "0.9"],
@@ -20,4 +28,4 @@
       }
     }
   }
-  
+}

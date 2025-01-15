@@ -2,6 +2,7 @@ using UnityEngine;
 using Unity.MLAgents;
 using Unity.MLAgents.Actuators;
 using Unity.MLAgents.Sensors;
+using UnityEngine.AI;
 
 public class EvaderBehavior : Agent
 {
@@ -12,11 +13,18 @@ public class EvaderBehavior : Agent
     [SerializeField] private float turnSpeed = 200f;
     private bool hasCollided = false;
 
-    // move smoothing
-    private float smoothTurn = 0f;
-    private float smoothMoveForward = 0f;
-    private float turnSmoothingFactor = 20f;
-    private float moveSmoothingFactor = 20f;
+    public NavMeshAgent navMeshAgent;
+
+    public override void Initialize()
+    {
+        base.Initialize();
+        if (navMeshAgent == null)
+        {
+            navMeshAgent = GetComponent<NavMeshAgent>();
+            navMeshAgent.speed = moveSpeed;
+            navMeshAgent.angularSpeed = turnSpeed;
+        }
+    }
 
     public override void OnEpisodeBegin()
     {
@@ -24,9 +32,19 @@ public class EvaderBehavior : Agent
         InitializePosition();
     }
 
+    private void Update()
+    {
+        if (navMeshAgent != null && target != null)
+        {
+            // 设置目标位置为 target 的位置
+            navMeshAgent.SetDestination(target.position);
+        }
+    }
+
     private void InitializePosition()
     {
-        transform.localPosition = new Vector3(0f, 0f, 0f);
+        // 重置位置和方向
+        transform.localPosition = new Vector3(-3f, 0f, -3f);
         transform.localRotation = Quaternion.Euler(0f, Random.Range(0f, 360f), 0f);
         Rigidbody rb = GetComponent<Rigidbody>();
         if (rb != null)
@@ -34,7 +52,15 @@ public class EvaderBehavior : Agent
             rb.velocity = Vector3.zero;
             rb.angularVelocity = Vector3.zero;
         }
+
+        // 初始化目标位置
         target.GetComponent<targetBehavior>().InitializePosition();
+
+        // 设置 NavMeshAgent 的起始位置
+        if (navMeshAgent != null)
+        {
+            navMeshAgent.Warp(transform.position); // 确保 NavMeshAgent 的位置与对象一致
+        }
     }
 
     public override void CollectObservations(VectorSensor sensor)
@@ -46,34 +72,13 @@ public class EvaderBehavior : Agent
 
     public override void OnActionReceived(ActionBuffers actions)
     {
-        float turn = actions.ContinuousActions[0];
-        float moveForward = actions.ContinuousActions[1];
-
-        // smooth the movement
-        smoothTurn = Mathf.Lerp(smoothTurn, turn, Time.deltaTime * turnSmoothingFactor);
-        smoothMoveForward = Mathf.Lerp(smoothMoveForward, moveForward, Time.deltaTime * moveSmoothingFactor);
-
-        Move(smoothTurn, smoothMoveForward);
+        // 自动导航模式下，不需要处理手动移动逻辑
+        // 如果需要，可以加逻辑覆盖手动模式
     }
 
     public override void Heuristic(in ActionBuffers actionsOut)
     {
-        ActionSegment<float> continousActions = actionsOut.ContinuousActions;
-
-        float inputTurn = Input.GetAxisRaw("Horizontal");
-        float inputMoveForward = Input.GetAxisRaw("Vertical");
-
-        smoothTurn = Mathf.Lerp(smoothTurn, inputTurn, Time.deltaTime * turnSmoothingFactor);
-        smoothMoveForward = Mathf.Lerp(smoothMoveForward, inputMoveForward, Time.deltaTime * moveSmoothingFactor);
-
-        continousActions[0] = smoothTurn;
-        continousActions[1] = smoothMoveForward;
-    }
-
-    private void Move(float turn, float moveForward)
-    {
-        transform.Rotate(0, turn * turnSpeed * Time.deltaTime, 0);
-        transform.Translate(Vector3.forward * moveForward * moveSpeed * Time.deltaTime);
+        // 在启用 NavMesh 时，不需要手动控制
     }
 
     private void OnTriggerEnter(Collider other)
