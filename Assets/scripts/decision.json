@@ -1,0 +1,13 @@
+{
+    "type": "DecisionNode",
+    "condition": "DistanceBetweenEntities",
+    "args": ["self", "evader", "0.7", "less"],
+    "trueNode": {
+      "type": "ActionNode",
+      "action": "Caught"
+    },
+    "falseNode": {
+      "type": "ActionNode",
+      "action": "MoveTowardsTarget"
+    }
+  }

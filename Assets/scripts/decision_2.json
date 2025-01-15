@@ -1,0 +1,22 @@
+{
+  "type": "DecisionNode",
+  "condition": "DistanceBetweenEntities",
+  "args": ["self", "evader", "0.3", "less"],
+  "trueNode": {
+      "type": "ActionNode",
+      "action": "Caught"
+  },
+  "falseNode": {
+      "type": "DecisionNode",
+      "condition": "LaserDistanceToEntity",
+      "args": ["evader", "0.9"],
+      "trueNode": {
+          "type": "ActionNode",
+          "action": "FireLaser"
+      },
+      "falseNode": {
+          "type": "ActionNode",
+          "action": "MoveTowardsTarget"
+      }
+  }
+}

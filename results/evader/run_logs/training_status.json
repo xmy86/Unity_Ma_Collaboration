@@ -1,0 +1,38 @@
+{
+    "Agent Control": {
+        "checkpoints": [
+            {
+                "steps": 499953,
+                "file_path": "results/evader/Agent Control/Agent Control-499953.onnx",
+                "reward": 0.02131147291816649,
+                "creation_time": 1736686239.050127,
+                "auxillary_file_paths": [
+                    "results/evader/Agent Control/Agent Control-499953.pt"
+                ]
+            },
+            {
+                "steps": 500017,
+                "file_path": "results/evader/Agent Control/Agent Control-500017.onnx",
+                "reward": 0.02131147291816649,
+                "creation_time": 1736686239.063176,
+                "auxillary_file_paths": [
+                    "results/evader/Agent Control/Agent Control-500017.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500017,
+            "file_path": "results/evader/Agent Control.onnx",
+            "reward": 0.02131147291816649,
+            "creation_time": 1736686239.063176,
+            "auxillary_file_paths": [
+                "results/evader/Agent Control/Agent Control-500017.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.5.1"
+    }
+}
