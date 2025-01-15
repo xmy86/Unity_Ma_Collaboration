@@ -4,17 +4,27 @@ public class PlayManager : MonoBehaviour
 {
     public int episodeCount = 0;
     [SerializeField] private int maxEpisodes = 10;
+    [SerializeField] private bool debug = false;
 
     void Update()
     {
         if (episodeCount >= maxEpisodes)
         {
-            Debug.Log("Max episodes reached. Exiting Unity...");
+            Debug.Log("Max episodes reached.");
 #if UNITY_EDITOR
-            UnityEditor.EditorApplication.Exit(0); // 编辑器模式下退出
+            if (debug)
+            {
+                Debug.Log("Stopping play mode in the editor.");
+                UnityEditor.EditorApplication.isPlaying = false;
+            }
+            else
+            {
+                Debug.Log("Exiting Unity Editor.");
+                UnityEditor.EditorApplication.Exit(0);
+            }
 #else
-            Application.Quit(0); // 运行时模式下退出
+            Application.Quit(0);
 #endif
         }
-    }   
+    }
 }

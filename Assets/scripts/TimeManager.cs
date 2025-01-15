@@ -22,7 +22,7 @@ public class TimeManager : MonoBehaviour
             {
                 evaderAgent.AddReward(-0.1f);
                 evaderAgent.EndEpisode();
-                pursuerAgent.InitializePositions();
+                pursuerAgent.Initialize();
             }
             ResetTimer();
         }

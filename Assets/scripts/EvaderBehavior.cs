@@ -21,6 +21,11 @@ public class EvaderBehavior : Agent
     public override void OnEpisodeBegin()
     {
         hasCollided = false;
+        InitializePosition();
+    }
+
+    private void InitializePosition()
+    {
         transform.localPosition = new Vector3(0f, 0f, 0f);
         transform.localRotation = Quaternion.Euler(0f, Random.Range(0f, 360f), 0f);
         Rigidbody rb = GetComponent<Rigidbody>();
@@ -29,9 +34,8 @@ public class EvaderBehavior : Agent
             rb.velocity = Vector3.zero;
             rb.angularVelocity = Vector3.zero;
         }
-        target.localPosition = new Vector3(Random.Range(-3f, 3f), 0.3f, Random.Range(-3f, 3f));
+        target.GetComponent<targetBehavior>().InitializePosition();
     }
-
 
     public override void CollectObservations(VectorSensor sensor)
     {
@@ -45,7 +49,7 @@ public class EvaderBehavior : Agent
         float turn = actions.ContinuousActions[0];
         float moveForward = actions.ContinuousActions[1];
 
-        // 平滑更新
+        // smooth the movement
         smoothTurn = Mathf.Lerp(smoothTurn, turn, Time.deltaTime * turnSmoothingFactor);
         smoothMoveForward = Mathf.Lerp(smoothMoveForward, moveForward, Time.deltaTime * moveSmoothingFactor);
 
@@ -82,7 +86,7 @@ public class EvaderBehavior : Agent
             HandleCollision(-0.3f, other.gameObject.tag);
     }
 
-    private void HandleCollision(float reward, string tag)
+    public void HandleCollision(float reward, string tag)
     {
         if (!hasCollided)
         {
@@ -90,7 +94,7 @@ public class EvaderBehavior : Agent
             hasCollided = true;
         }
 
-        pursuer.InitializePositions();
+        pursuer.Initialize();
         playManager.GetComponent<PlayManager>().episodeCount++;
         EndEpisode();
     }

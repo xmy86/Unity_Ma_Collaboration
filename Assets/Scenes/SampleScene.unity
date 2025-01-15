@@ -452,6 +452,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   episodeCount: 0
   maxEpisodes: 10
+  debug: 0
 --- !u!1 &364954218
 GameObject:
   m_ObjectHideFlags: 0
@@ -934,9 +935,9 @@ MonoBehaviour:
   MaxStep: 0
   target: {fileID: 670398326}
   pursuer: {fileID: 180149143}
+  playManager: {fileID: 309608907}
   moveSpeed: 4
   turnSpeed: 200
-  playManager: {fileID: 309608907}
 --- !u!114 &827356427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2206,6 +2207,7 @@ MonoBehaviour:
   pursuerRb: {fileID: 180149140}
   target: {fileID: 670398326}
   laser: {fileID: 1041895956}
+  logTimeInterval: 0.1
 --- !u!1 &2107637459
 GameObject:
   m_ObjectHideFlags: 0

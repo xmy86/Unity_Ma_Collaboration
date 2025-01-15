@@ -16,23 +16,17 @@ public class EntityLogger : MonoBehaviour
 
     void Start()
     {
-        // 确保日志文件夹存在
         string logDirectory = Path.Combine(Application.dataPath, "../LLM_iteration/Log");
         if (!Directory.Exists(logDirectory))
         {
             Directory.CreateDirectory(logDirectory);
         }
-
-        // 获取最大编号的日志文件路径
         logFilePath = GetMaxLogFilePath(logDirectory);
-
-        // 开始记录
         StartCoroutine(LogEntityData());
     }
 
     private string GetMaxLogFilePath(string logDirectory)
     {
-        // 查找现有的日志文件
         string[] logFiles = Directory.GetFiles(logDirectory, "Log*.txt");
         int maxIndex = 0;
 
@@ -45,15 +39,13 @@ public class EntityLogger : MonoBehaviour
             }
             else if (fileName.StartsWith("Log"))
             {
-                string indexPart = fileName.Substring(3); // 提取 "Log" 后的数字部分
+                string indexPart = fileName.Substring(3);
                 if (int.TryParse(indexPart, out int index))
                 {
                     maxIndex = Mathf.Max(maxIndex, index);
                 }
             }
         }
-
-        // 生成新文件路径
         string newFileName = maxIndex == 0 ? "Log.txt" : $"Log{maxIndex + 1}.txt";
         return Path.Combine(logDirectory, newFileName);
     }
@@ -78,7 +70,6 @@ public class EntityLogger : MonoBehaviour
                               $"Target Position: {targetPosition}\n" +
                               $"Laser Active: {isLaserActive}\n\n";
 
-            // 将数据写入文件
             File.AppendAllText(logFilePath, logEntry);
 
             yield return new WaitForSeconds(logTimeInterval);

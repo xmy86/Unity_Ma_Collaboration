@@ -25,7 +25,7 @@ public class ChaserAgent : MonoBehaviour
 
     public void OnEpisodeBegin()
     {
-        InitializePositions();
+        Initialize();
         HideLaser();
     }
 
@@ -194,14 +194,14 @@ public class ChaserAgent : MonoBehaviour
     private void Caught()
     {
         Debug.Log("Successfully caught up!");
-        InitializePositions();
+        Initialize();
     }
 
     private void EndGame()
     {
         Debug.Log("[Game Over] ChaserAgent wins!");
         playManager.GetComponent<PlayManager>().episodeCount++;
-        InitializePositions();
+        Initialize();
     }
 
     private void MoveTowardsTarget(Vector3 targetPosition)
@@ -232,7 +232,7 @@ public class ChaserAgent : MonoBehaviour
         pursuerRb.velocity *= dragFactor;
     }
 
-    public void InitializePositions()
+    public void Initialize()
     {
         transform.localPosition = new Vector3(UnityEngine.Random.Range(-5f, 5f), 0f, UnityEngine.Random.Range(-5f, 5f));
         transform.localRotation = Quaternion.Euler(0f, UnityEngine.Random.Range(0f, 360f), 0f);
