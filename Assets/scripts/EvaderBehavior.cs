@@ -3,18 +3,17 @@ using UnityEngine.AI;
 
 public class EvaderBehavior : MonoBehaviour
 {
-    [SerializeField] private Transform target; // 目标
-    [SerializeField] private ChaserAgent pursuer; // 追击者
-    [SerializeField] private GameObject playManager; // 游戏管理器
-    [SerializeField] private float moveSpeed = 4f; // 移动速度
-    [SerializeField] private float turnSpeed = 200f; // 转向速度
-    private bool hasCollided = false; // 碰撞状态
+    [SerializeField] private Transform target;
+    [SerializeField] private ChaserBehavior pursuer;
+    [SerializeField] private GameObject playManager;
+    [SerializeField] private float moveSpeed = 4f;
+    [SerializeField] private float turnSpeed = 200f;
+    private bool hasCollided = false;
 
     private NavMeshAgent navMeshAgent;
 
     private void Start()
     {
-        // 初始化 NavMeshAgent
         navMeshAgent = GetComponent<NavMeshAgent>();
         if (navMeshAgent == null)
         {
@@ -25,21 +24,19 @@ public class EvaderBehavior : MonoBehaviour
         navMeshAgent.speed = moveSpeed;
         navMeshAgent.angularSpeed = turnSpeed;
 
-        InitializePosition(); // 初始化位置
+        playManager.GetComponent<PlayManager>().Initialize();
     }
 
     private void Update()
     {
         if (navMeshAgent != null && target != null)
         {
-            // 设置导航目标位置为 target 的位置
             navMeshAgent.SetDestination(target.position);
         }
     }
 
-    private void InitializePosition()
+    public void Initialize()
     {
-        // 初始化 Evader 的位置和方向
         transform.localPosition = new Vector3(0f, 0f, -3.5f);
         transform.localRotation = Quaternion.Euler(0f, 0f, 0f);
 
@@ -50,19 +47,12 @@ public class EvaderBehavior : MonoBehaviour
             rb.angularVelocity = Vector3.zero;
         }
 
-        // 初始化目标位置
-        if (target != null && target.GetComponent<targetBehavior>() != null)
-        {
-            target.GetComponent<targetBehavior>().InitializePosition();
-        }
-
-        // 确保 NavMeshAgent 的位置与对象一致
         if (navMeshAgent != null)
         {
             navMeshAgent.Warp(transform.position);
         }
 
-        hasCollided = false; // 重置碰撞状态
+        hasCollided = false;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -88,13 +78,6 @@ public class EvaderBehavior : MonoBehaviour
             Debug.Log($"Collision with {tag}. Reward: {reward}");
             hasCollided = true;
         }
-
-        // 重置状态
-        pursuer.Initialize();
-        if (playManager != null)
-        {
-            playManager.GetComponent<PlayManager>().episodeCount++;
-        }
-        InitializePosition(); // 重置位置
+        playManager.GetComponent<PlayManager>().Initialize();
     }
 }

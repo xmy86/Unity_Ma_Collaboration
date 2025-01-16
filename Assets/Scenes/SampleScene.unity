@@ -251,17 +251,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pursuerRb: {fileID: 180149140}
   evader: {fileID: 827356428}
-  distanceSensor: {fileID: 1923977890}
-  laser: {fileID: 1041895956}
-  moveSpeed: 4
-  turnSpeed: 50
+  moveSpeed: 6
+  turnSpeed: 80
   dragFactor: 0.95
   isManualControl: 0
-  sensorRange: 10
-  laserDuration: 0.5
-  maxLaserShots: 2
   decisionTreeJson: {fileID: 4900000, guid: 937997df6372e434aa0b2a911cfcb166, type: 3}
-  playManager: {fileID: 309608907}
+  captureDistance: 0.6
 --- !u!114 &180149144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1013,7 +1008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 504aeac7747024baf8706b2a00638620, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  evaderAgent: {fileID: 827356426}
+  evaderAgent: {fileID: 0}
   pursuerAgent: {fileID: 180149143}
   maxTime: 10
 --- !u!1 &827356425
@@ -1031,6 +1026,7 @@ GameObject:
   - component: {fileID: 827356430}
   - component: {fileID: 827356431}
   - component: {fileID: 827356432}
+  - component: {fileID: 827356433}
   m_Layer: 0
   m_Name: Evader
   m_TagString: evader
@@ -1050,16 +1046,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3f5a1cb46f614588b0dc1c86aaa2529, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agentParameters:
-    maxStep: 0
-  hasUpgradedFromAgentParameters: 1
-  MaxStep: 0
   target: {fileID: 670398326}
   pursuer: {fileID: 180149143}
   playManager: {fileID: 309608907}
   moveSpeed: 4
   turnSpeed: 200
-  navMeshAgent: {fileID: 827356432}
 --- !u!114 &827356427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1194,6 +1185,22 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &827356433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827356425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b6042bc9a5d4aa58d931eae49442e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+  hasUpgradedFromAgentParameters: 1
+  MaxStep: 0
 --- !u!1 &906898908
 GameObject:
   m_ObjectHideFlags: 0
@@ -1490,7 +1497,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1041895957
 Transform:
   m_ObjectHideFlags: 0

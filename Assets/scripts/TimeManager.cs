@@ -4,8 +4,9 @@ using Unity.MLAgents;
 public class TimeManager : MonoBehaviour
 {
     [SerializeField] private Agent evaderAgent;
-    [SerializeField] private ChaserAgent pursuerAgent;
+    [SerializeField] private ChaserBehavior pursuerAgent;
     [SerializeField] private float maxTime = 10f;
+    [SerializeField] private GameObject playManager;
     private float timer;
     void Start()
     {
@@ -21,8 +22,7 @@ public class TimeManager : MonoBehaviour
             if (evaderAgent != null)
             {
                 evaderAgent.AddReward(-0.1f);
-                evaderAgent.EndEpisode();
-                pursuerAgent.Initialize();
+                playManager.GetComponent<PlayManager>().Initialize();
             }
             ResetTimer();
         }

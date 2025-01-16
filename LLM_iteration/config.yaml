@@ -1,3 +1,4 @@
+# The path to the Unity executable
 unity_executable_path: "/Applications/Unity/Hub/Editor/2022.3.50f1/Unity.app/Contents/MacOS/Unity"
 unity_project_path: "/Users/xumingyuan/Documents/pursuit_evasion_game"
 unity_execute_method: "PlayEditor.Play"

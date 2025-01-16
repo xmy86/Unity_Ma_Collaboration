@@ -1,8 +1,9 @@
 using System;
 using Newtonsoft.Json;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class ChaserAgent : MonoBehaviour
+public class ChaserBehavior : MonoBehaviour
 {
     [SerializeField] private Rigidbody pursuerRb;
     [SerializeField] private Transform evader;
@@ -10,21 +11,21 @@ public class ChaserAgent : MonoBehaviour
     [SerializeField] private float turnSpeed = 150f;
     [SerializeField] private float dragFactor = 0.95f;
     [SerializeField] private bool isManualControl = false;
-    [SerializeField] private TextAsset decisionTreeJson;
     [SerializeField] private GameObject playManager;
+    [SerializeField] private TextAsset pathJson;
 
-    private DecisionTreeNode rootNode;
-
-    public void OnEpisodeBegin()
-    {
-        Initialize();
-    }
+    private List<Vector3> waypoints;
+    private int currentWaypointIndex = 0;
+    private bool isFollowingEvader = false;
+    private float captureDistance;
 
     void Start()
     {
-        if (decisionTreeJson != null)
+        LoadPathFromJson();
+
+        if (waypoints.Count > 0)
         {
-            rootNode = DecisionTreeNode.FromJson(decisionTreeJson.text, this);
+            currentWaypointIndex = 0;
         }
     }
 
@@ -34,10 +35,89 @@ public class ChaserAgent : MonoBehaviour
         {
             HandleInput();
         }
-        else if (rootNode != null)
+        else
         {
-            rootNode.Execute();
+            NavigatePath();
         }
+
+        CheckCapture();
+    }
+
+    private void LoadPathFromJson()
+    {
+        if (pathJson == null)
+        {
+            Debug.LogError("Path JSON not provided!");
+            return;
+        }
+
+        var pathData = JsonConvert.DeserializeObject<PathData>(pathJson.text);
+
+        waypoints = new List<Vector3>();
+        foreach (var waypoint in pathData.waypoints)
+        {
+            waypoints.Add(new Vector3(waypoint.x, waypoint.y, waypoint.z));
+        }
+
+        captureDistance = pathData.captureDistance;
+    }
+
+    private void NavigatePath()
+    {
+        if (isFollowingEvader)
+        {
+            MoveTowardsTarget(evader.position);
+            return;
+        }
+
+        if (currentWaypointIndex < waypoints.Count)
+        {
+            Vector3 currentTarget = waypoints[currentWaypointIndex];
+            if (Vector3.Distance(transform.position, currentTarget) <= captureDistance)
+            {
+                currentWaypointIndex++;
+                if (currentWaypointIndex >= waypoints.Count)
+                {
+                    isFollowingEvader = true;
+                    Debug.Log("All waypoints reached. Now following evader.");
+                }
+            }
+            else
+            {
+                MoveTowardsTarget(currentTarget);
+            }
+        }
+    }
+
+    private void CheckCapture()
+    {
+        if (isFollowingEvader && Vector3.Distance(transform.position, evader.position) <= captureDistance)
+        {
+            Debug.Log("Evader captured!");
+            playManager.GetComponent<PlayManager>().Initialize();
+        }
+    }
+
+    private void MoveTowardsTarget(Vector3 targetPosition)
+    {
+        Vector3 direction = (targetPosition - transform.position).normalized;
+        float angleToTarget = Vector3.SignedAngle(transform.forward, direction, Vector3.up);
+
+        float turn = Mathf.Clamp(angleToTarget, -1f, 1f);
+        float forwardForce = Mathf.Clamp(1f - Mathf.Abs(angleToTarget) / 90f, 0f, 1f);
+
+        float torque = turn * turnSpeed;
+        pursuerRb.AddTorque(Vector3.up * torque, ForceMode.Force);
+
+        Vector3 force = transform.forward * forwardForce * moveSpeed;
+        pursuerRb.AddForce(force, ForceMode.Force);
+
+        if (pursuerRb.velocity.magnitude > moveSpeed)
+        {
+            pursuerRb.velocity = pursuerRb.velocity.normalized * moveSpeed;
+        }
+
+        pursuerRb.velocity *= dragFactor;
     }
 
     private void HandleInput()
@@ -88,208 +168,33 @@ public class ChaserAgent : MonoBehaviour
         pursuerRb.velocity *= dragFactor;
     }
 
-    private void Caught()
-    {
-        Debug.Log("Successfully caught up!");
-        Initialize();
-    }
-
-    private void MoveTowardsTarget(Vector3 targetPosition)
-    {
-        if (pursuerRb == null)
-        {
-            Debug.LogError("Rigidbody not assigned to pursuer!");
-            return;
-        }
-
-        Vector3 direction = (targetPosition - transform.position).normalized;
-        float angleToTarget = Vector3.SignedAngle(transform.forward, direction, Vector3.up);
-
-        float turn = Mathf.Clamp(angleToTarget, -1f, 1f);
-        float forwardForce = Mathf.Clamp(1f - Mathf.Abs(angleToTarget) / 90f, 0f, 1f);
-
-        float torque = turn * turnSpeed;
-        pursuerRb.AddTorque(Vector3.up * torque, ForceMode.Force);
-
-        Vector3 force = transform.forward * forwardForce * moveSpeed;
-        pursuerRb.AddForce(force, ForceMode.Force);
-
-        if (pursuerRb.velocity.magnitude > moveSpeed)
-        {
-            pursuerRb.velocity = pursuerRb.velocity.normalized * moveSpeed;
-        }
-
-        pursuerRb.velocity *= dragFactor;
-    }
-
-    private void AvoidObstacle()
-    {
-        float randomTurn = UnityEngine.Random.Range(-1f, 1f);
-        transform.Rotate(0, randomTurn * turnSpeed * Time.deltaTime, 0);
-        transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
-
-        Debug.Log("Avoiding obstacle");
-    }
-
     public void Initialize()
     {
         transform.localPosition = new Vector3(0f, 0f, 3.5f);
         transform.localRotation = Quaternion.Euler(0f, 180f, 0f);
-        evader.localPosition = new Vector3(0f, 0f, -3.5f);
-        evader.localRotation = Quaternion.Euler(0f, 0f, 0f);
+        isFollowingEvader = false;
+        currentWaypointIndex = 0;
+
         if (GetComponent<Rigidbody>() != null)
         {
             GetComponent<Rigidbody>().velocity = Vector3.zero;
             GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
         }
-        if (evader.GetComponent<Rigidbody>() != null)
-        {
-            evader.GetComponent<Rigidbody>().velocity = Vector3.zero;
-            evader.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
-        }
-    }
-
-    public abstract class DecisionTreeNode
-    {
-        public abstract void Execute();
-
-        public static DecisionTreeNode FromJson(string json, ChaserAgent agent)
-        {
-            var nodeData = JsonConvert.DeserializeObject<DecisionTreeNodeData>(json);
-            return CreateNode(nodeData, agent);
-        }
-
-        private static DecisionTreeNode CreateNode(DecisionTreeNodeData data, ChaserAgent agent)
-        {
-            if (data.type == "DecisionNode")
-            {
-                return new DecisionNode(
-                    () => EvaluateCondition(data.condition, agent, data.args),
-                    CreateNode(data.trueNode, agent),
-                    CreateNode(data.falseNode, agent)
-                );
-            }
-            else if (data.type == "ActionNode")
-            {
-                return new ActionNode(() => ExecuteAction(data.action, agent));
-            }
-            throw new Exception("Invalid node type");
-        }
-
-        private static bool EvaluateCondition(string condition, ChaserAgent agent, string[] args)
-        {
-            if (condition == "DistanceBetweenEntities")
-            {
-                if (args.Length < 4)
-                {
-                    throw new Exception("Invalid arguments for DistanceBetweenEntities condition");
-                }
-
-                string entityA = args[0];
-                string entityB = args[1];
-                float threshold = float.Parse(args[2]);
-                string comparison = args[3];
-
-                Transform transformA = GetEntityTransform(entityA, agent);
-                Transform transformB = GetEntityTransform(entityB, agent);
-
-                float distance = Vector3.Distance(transformA.position, transformB.position);
-
-                if (comparison == "less")
-                {
-                    return distance < threshold;
-                }
-                else if (comparison == "greater")
-                {
-                    return distance > threshold;
-                }
-                else
-                {
-                    throw new Exception("Invalid comparison operator");
-                }
-            }
-
-            throw new Exception("Unknown condition");
-        }
-
-        private static Transform GetEntityTransform(string entityName, ChaserAgent agent)
-        {
-            return entityName switch
-            {
-                "self" => agent.transform,
-                "evader" => agent.evader,
-                _ => throw new Exception($"Unknown entity: {entityName}")
-            };
-        }
-
-        private static void ExecuteAction(string action, ChaserAgent agent)
-        {
-            switch (action)
-            {
-                case "Caught":
-                    agent.Caught();
-                    break;
-                case "MoveTowardsTarget":
-                    agent.MoveTowardsTarget(agent.evader.position);
-                    break;
-                case "AvoidObstacle":
-                    agent.AvoidObstacle();
-                    break;
-                default:
-                    throw new Exception($"Unknown action: {action}");
-            }
-        }
-    }
-
-    public class DecisionNode : DecisionTreeNode
-    {
-        private Func<bool> condition;
-        private DecisionTreeNode trueNode;
-        private DecisionTreeNode falseNode;
-
-        public DecisionNode(Func<bool> condition, DecisionTreeNode trueNode, DecisionTreeNode falseNode)
-        {
-            this.condition = condition;
-            this.trueNode = trueNode;
-            this.falseNode = falseNode;
-        }
-
-        public override void Execute()
-        {
-            if (condition())
-            {
-                trueNode.Execute();
-            }
-            else
-            {
-                falseNode.Execute();
-            }
-        }
-    }
-
-    public class ActionNode : DecisionTreeNode
-    {
-        private Action action;
-
-        public ActionNode(Action action)
-        {
-            this.action = action;
-        }
-
-        public override void Execute()
-        {
-            action();
-        }
     }
 
     [Serializable]
-    public class DecisionTreeNodeData
+    private class PathData
     {
-        public string type;
-        public string condition;
-        public string action;
-        public DecisionTreeNodeData trueNode;
-        public DecisionTreeNodeData falseNode;
-        public string[] args;
+        public List<Waypoint> waypoints;
+        public string finalAction;
+        public float captureDistance;
+    }
+
+    [Serializable]
+    private class Waypoint
+    {
+        public float x;
+        public float y;
+        public float z;
     }
 }

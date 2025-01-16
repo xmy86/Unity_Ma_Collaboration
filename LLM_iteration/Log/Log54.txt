@@ -1,0 +1,114 @@
+Timestamp: 0.00
+Evader Position: (0.00, 0.00, -3.50), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (0.00, 0.00, 3.50), Velocity: (0.00, 0.00, 0.00)
+Target Position: (0.00, 0.00, 0.00)
+Laser Active: False
+
+Timestamp: 0.10
+Evader Position: (0.03, 0.10, -3.49), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (0.02, -0.05, 3.47), Velocity: (0.61, -0.23, -1.01)
+Target Position: (0.00, 0.00, 0.00)
+Laser Active: False
+
+Timestamp: 0.20
+Evader Position: (0.12, 0.10, -3.48), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (0.19, -0.05, 3.33), Velocity: (2.33, 0.00, -1.17)
+Target Position: (0.00, 0.00, 0.00)
+Laser Active: False
+
+Timestamp: 0.30
+Evader Position: (0.26, 0.10, -3.45), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (0.57, -0.05, 3.29), Velocity: (3.90, 0.00, 0.37)
+Target Position: (0.00, 0.00, 0.00)
+Laser Active: False
+
+Timestamp: 0.40
+Evader Position: (0.47, 0.10, -3.41), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (0.99, -0.05, 3.31), Velocity: (3.68, 0.00, 0.08)
+Target Position: (0.00, 0.00, 0.00)
+Laser Active: False
+
+Timestamp: 0.50
+Evader Position: (0.74, 0.10, -3.36), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (1.42, -0.05, 3.34), Velocity: (3.66, 0.00, 0.37)
+Target Position: (0.00, 0.00, 0.00)
+Laser Active: False
+
+Timestamp: 0.60
+Evader Position: (1.06, 0.10, -3.29), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (1.85, -0.05, 3.36), Velocity: (3.47, 0.00, 0.04)
+Target Position: (0.00, 0.00, 0.00)
+Laser Active: False
+
+Timestamp: 0.70
+Evader Position: (1.44, 0.10, -3.21), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.27, -0.05, 3.39), Velocity: (3.54, 0.00, 0.32)
+Target Position: (0.00, 0.00, 0.00)
+Laser Active: False
+
+Timestamp: 0.80
+Evader Position: (1.83, 0.10, -3.13), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.59, -0.05, 3.40), Velocity: (1.30, 0.00, 0.00)
+Target Position: (0.00, 0.00, 0.00)
+Laser Active: False
+
+Timestamp: 0.90
+Evader Position: (2.22, 0.10, -3.04), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (2.81, -0.05, 3.32), Velocity: (1.92, 0.00, -1.17)
+Target Position: (0.00, 0.00, 0.00)
+Laser Active: False
+
+Timestamp: 1.00
+Evader Position: (2.58, 0.10, -2.96), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (3.04, -0.05, 3.03), Velocity: (1.52, 0.00, -3.04)
+Target Position: (0.00, 0.00, 0.00)
+Laser Active: False
+
+Timestamp: 1.10
+Evader Position: (2.88, 0.10, -2.84), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (3.15, -0.05, 2.67), Velocity: (0.36, 0.00, -2.88)
+Target Position: (0.00, 0.00, 0.00)
+Laser Active: False
+
+Timestamp: 1.20
+Evader Position: (3.14, 0.10, -2.68), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (3.13, -0.05, 2.23), Velocity: (-0.07, 0.00, -3.06)
+Target Position: (0.00, 0.00, 0.00)
+Laser Active: False
+
+Timestamp: 1.30
+Evader Position: (3.35, 0.10, -2.49), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (3.16, -0.05, 1.81), Velocity: (0.26, 0.00, -2.83)
+Target Position: (0.00, 0.00, 0.00)
+Laser Active: False
+
+Timestamp: 1.40
+Evader Position: (3.50, 0.10, -2.28), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (3.17, -0.05, 1.39), Velocity: (0.03, 0.00, -2.77)
+Target Position: (0.00, 0.00, 0.00)
+Laser Active: False
+
+Timestamp: 1.51
+Evader Position: (3.60, 0.10, -2.05), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (3.20, -0.05, 0.97), Velocity: (0.26, 0.00, -2.71)
+Target Position: (0.00, 0.00, 0.00)
+Laser Active: False
+
+Timestamp: 1.61
+Evader Position: (3.64, 0.10, -1.81), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (3.27, -0.05, 0.56), Velocity: (0.53, 0.00, -2.48)
+Target Position: (0.00, 0.00, 0.00)
+Laser Active: False
+
+Timestamp: 1.71
+Evader Position: (3.61, 0.10, -1.58), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (3.34, -0.05, 0.15), Velocity: (0.32, 0.00, -2.47)
+Target Position: (0.00, 0.00, 0.00)
+Laser Active: False
+
+Timestamp: 1.81
+Evader Position: (3.53, 0.10, -1.35), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (3.41, -0.05, -0.26), Velocity: (0.48, 0.00, -2.25)
+Target Position: (0.00, 0.00, 0.00)
+Laser Active: False
+
