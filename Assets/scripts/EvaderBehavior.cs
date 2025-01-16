@@ -1,51 +1,48 @@
 using UnityEngine;
-using Unity.MLAgents;
-using Unity.MLAgents.Actuators;
-using Unity.MLAgents.Sensors;
 using UnityEngine.AI;
 
-public class EvaderBehavior : Agent
+public class EvaderBehavior : MonoBehaviour
 {
-    [SerializeField] private Transform target;
-    [SerializeField] private ChaserAgent pursuer;
-    [SerializeField] private GameObject playManager;
-    [SerializeField] private float moveSpeed = 4f;
-    [SerializeField] private float turnSpeed = 200f;
-    private bool hasCollided = false;
+    [SerializeField] private Transform target; // 目标
+    [SerializeField] private ChaserAgent pursuer; // 追击者
+    [SerializeField] private GameObject playManager; // 游戏管理器
+    [SerializeField] private float moveSpeed = 4f; // 移动速度
+    [SerializeField] private float turnSpeed = 200f; // 转向速度
+    private bool hasCollided = false; // 碰撞状态
 
-    public NavMeshAgent navMeshAgent;
+    private NavMeshAgent navMeshAgent;
 
-    public override void Initialize()
+    private void Start()
     {
-        base.Initialize();
+        // 初始化 NavMeshAgent
+        navMeshAgent = GetComponent<NavMeshAgent>();
         if (navMeshAgent == null)
         {
-            navMeshAgent = GetComponent<NavMeshAgent>();
-            navMeshAgent.speed = moveSpeed;
-            navMeshAgent.angularSpeed = turnSpeed;
+            Debug.LogError("NavMeshAgent component is missing!");
+            return;
         }
-    }
 
-    public override void OnEpisodeBegin()
-    {
-        hasCollided = false;
-        InitializePosition();
+        navMeshAgent.speed = moveSpeed;
+        navMeshAgent.angularSpeed = turnSpeed;
+
+        InitializePosition(); // 初始化位置
     }
 
     private void Update()
     {
         if (navMeshAgent != null && target != null)
         {
-            // 设置目标位置为 target 的位置
+            // 设置导航目标位置为 target 的位置
             navMeshAgent.SetDestination(target.position);
         }
     }
 
     private void InitializePosition()
     {
-        // 重置位置和方向
-        transform.localPosition = new Vector3(-3f, 0f, -3f);
-        transform.localRotation = Quaternion.Euler(0f, Random.Range(0f, 360f), 0f);
+        // 初始化 Evader 的位置和方向
+        transform.localPosition = new Vector3(0f, 0f, -3.5f);
+        transform.localRotation = Quaternion.Euler(0f, 0f, 0f);
+
         Rigidbody rb = GetComponent<Rigidbody>();
         if (rb != null)
         {
@@ -54,53 +51,50 @@ public class EvaderBehavior : Agent
         }
 
         // 初始化目标位置
-        target.GetComponent<targetBehavior>().InitializePosition();
+        if (target != null && target.GetComponent<targetBehavior>() != null)
+        {
+            target.GetComponent<targetBehavior>().InitializePosition();
+        }
 
-        // 设置 NavMeshAgent 的起始位置
+        // 确保 NavMeshAgent 的位置与对象一致
         if (navMeshAgent != null)
         {
-            navMeshAgent.Warp(transform.position); // 确保 NavMeshAgent 的位置与对象一致
+            navMeshAgent.Warp(transform.position);
         }
-    }
 
-    public override void CollectObservations(VectorSensor sensor)
-    {
-        sensor.AddObservation(transform.localPosition);
-        sensor.AddObservation(target.localPosition);
-        sensor.AddObservation(pursuer.transform.localPosition);
-    }
-
-    public override void OnActionReceived(ActionBuffers actions)
-    {
-        // 自动导航模式下，不需要处理手动移动逻辑
-        // 如果需要，可以加逻辑覆盖手动模式
-    }
-
-    public override void Heuristic(in ActionBuffers actionsOut)
-    {
-        // 在启用 NavMesh 时，不需要手动控制
+        hasCollided = false; // 重置碰撞状态
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "target")
-            HandleCollision(1f, other.gameObject.tag);
+        {
+            HandleCollision(1f, "target");
+        }
         else if (other.gameObject.tag == "wall")
-            HandleCollision(-0.1f, other.gameObject.tag);
+        {
+            HandleCollision(-0.1f, "wall");
+        }
         else if (other.gameObject.tag == "pursuer")
-            HandleCollision(-0.3f, other.gameObject.tag);
+        {
+            HandleCollision(-0.3f, "pursuer");
+        }
     }
 
-    public void HandleCollision(float reward, string tag)
+    private void HandleCollision(float reward, string tag)
     {
         if (!hasCollided)
         {
-            AddReward(reward);
+            Debug.Log($"Collision with {tag}. Reward: {reward}");
             hasCollided = true;
         }
 
+        // 重置状态
         pursuer.Initialize();
-        playManager.GetComponent<PlayManager>().episodeCount++;
-        EndEpisode();
+        if (playManager != null)
+        {
+            playManager.GetComponent<PlayManager>().episodeCount++;
+        }
+        InitializePosition(); // 重置位置
     }
 }

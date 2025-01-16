@@ -6,7 +6,7 @@ public class targetBehavior : MonoBehaviour
 {
     public void InitializePosition()
     {
-        transform.localPosition = new Vector3(Random.Range(-3f, 3f), 0.3f, Random.Range(-3f, 3f));
+        transform.localPosition = new Vector3(Random.Range(-1.5f, 1.5f), 0.3f, Random.Range(-1f, 1f));
     }
     
 }

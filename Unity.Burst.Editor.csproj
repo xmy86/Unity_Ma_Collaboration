@@ -72,8 +72,8 @@
     <Compile Include="Library/PackageCache/com.unity.burst@1.8.18/Editor/LabeledPopup.cs" />
     <Compile Include="Library/PackageCache/com.unity.burst@1.8.18/Editor/BurstDisassembler.Core.cs" />
     <Compile Include="Library/PackageCache/com.unity.burst@1.8.18/Editor/BurstDisassembler.Core.ARM64.info.cs" />
-    <Compile Include="Library/PackageCache/com.unity.burst@1.8.18/Editor/BurstDisassembler.cs" />
     <Compile Include="Library/PackageCache/com.unity.burst@1.8.18/Editor/BurstDisassembler.Core.x86.info.cs" />
+    <Compile Include="Library/PackageCache/com.unity.burst@1.8.18/Editor/BurstDisassembler.cs" />
     <Compile Include="Library/PackageCache/com.unity.burst@1.8.18/Editor/LongTextArea.cs" />
     <Compile Include="Library/PackageCache/com.unity.burst@1.8.18/Editor/BurstDisassembler.Core.ARM64.cs" />
     <Compile Include="Library/PackageCache/com.unity.burst@1.8.18/Editor/BurstMath.cs" />

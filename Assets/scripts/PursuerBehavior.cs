@@ -6,27 +6,18 @@ public class ChaserAgent : MonoBehaviour
 {
     [SerializeField] private Rigidbody pursuerRb;
     [SerializeField] private Transform evader;
-    [SerializeField] private Transform distanceSensor;
-    [SerializeField] private GameObject laser;
     [SerializeField] private float moveSpeed = 2f;
     [SerializeField] private float turnSpeed = 150f;
     [SerializeField] private float dragFactor = 0.95f;
     [SerializeField] private bool isManualControl = false;
-    [SerializeField] private float sensorRange = 10f;
-    [SerializeField] private float laserDuration = 0.5f;
-    [SerializeField] private int maxLaserShots = 2; // 每局最多发射激光次数
-
     [SerializeField] private TextAsset decisionTreeJson;
     [SerializeField] private GameObject playManager;
 
     private DecisionTreeNode rootNode;
-    private float laserTimer = 0f;
-    private int currentLaserShots = 0; // 当前已发射的激光次数
 
     public void OnEpisodeBegin()
     {
         Initialize();
-        HideLaser();
     }
 
     void Start()
@@ -47,9 +38,6 @@ public class ChaserAgent : MonoBehaviour
         {
             rootNode.Execute();
         }
-
-        float forwardDistance = MeasureSensorDistance();
-        UpdateLaser(forwardDistance);
     }
 
     private void HandleInput()
@@ -85,11 +73,6 @@ public class ChaserAgent : MonoBehaviour
         {
             Move(moveForward);
         }
-
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            FireLaser();
-        }
     }
 
     private void Move(float forwardForce)
@@ -105,102 +88,9 @@ public class ChaserAgent : MonoBehaviour
         pursuerRb.velocity *= dragFactor;
     }
 
-    private float MeasureSensorDistance()
-    {
-        if (distanceSensor == null)
-        {
-            Debug.LogError("DistanceSensor transform is not assigned!");
-            return sensorRange;
-        }
-
-        Vector3 sensorOrigin = distanceSensor.position;
-        Vector3 sensorDirection = distanceSensor.forward;
-
-        Ray ray = new Ray(sensorOrigin, sensorDirection);
-
-        if (Physics.Raycast(ray, out RaycastHit hit, sensorRange))
-        {
-            if (laserTimer > 0f && hit.distance < 1f && hit.collider.CompareTag("evader"))
-            {
-                Debug.Log("[Remote Attack] Evader hit by laser!");
-                EndGame();
-            }
-            return hit.distance;
-        }
-        else
-        {
-            return sensorRange;
-        }
-    }
-
-    private void FireLaser()
-    {
-        if (currentLaserShots >= maxLaserShots)
-        {
-            Debug.Log("Maximum laser shots reached. Cannot fire more lasers this round.");
-            return;
-        }
-
-        ShowLaser();
-        laserTimer = laserDuration;
-        currentLaserShots++; // 增加激光发射计数
-    }
-
-    private void UpdateLaser(float forwardDistance)
-    {
-        if (laserTimer > 0f)
-        {
-            laserTimer -= Time.deltaTime;
-            float clampedDistance = Mathf.Min(1f, forwardDistance);
-
-            if (laser != null)
-            {
-                Vector3 currentScale = laser.transform.localScale;
-                Vector3 currentPosition = laser.transform.localPosition;
-
-                float lengthDifference = currentScale.z - clampedDistance;
-
-                laser.transform.localScale = new Vector3(currentScale.x, currentScale.y, clampedDistance);
-                laser.transform.localPosition = new Vector3(
-                    currentPosition.x,
-                    currentPosition.y,
-                    currentPosition.z - lengthDifference / 2f
-                );
-            }
-
-            if (laserTimer <= 0f)
-            {
-                HideLaser();
-            }
-        }
-    }
-
-    private void ShowLaser()
-    {
-        if (laser != null)
-        {
-            laser.SetActive(true);
-        }
-    }
-
-    private void HideLaser()
-    {
-        if (laser != null)
-        {
-            laser.SetActive(false);
-        }
-    }
-
     private void Caught()
     {
         Debug.Log("Successfully caught up!");
-        Initialize();
-    }
-
-    private void EndGame()
-    {
-        Debug.Log("[Game Over] ChaserAgent wins!");
-        playManager.GetComponent<PlayManager>().episodeCount++;
         Initialize();
     }
 
@@ -243,10 +133,10 @@ public class ChaserAgent : MonoBehaviour
 
     public void Initialize()
     {
-        transform.localPosition = new Vector3(3f, 0f, 3f); // Pursuer 的位置
-        transform.localRotation = Quaternion.Euler(0f, UnityEngine.Random.Range(0f, 360f), 0f); // Pursuer 的随机方向
-        evader.localPosition = new Vector3(-3f, 0f, -3f); // Evader 的位置
-        evader.localRotation = Quaternion.Euler(0f, UnityEngine.Random.Range(0f, 360f), 0f); // Evader 的随机方向
+        transform.localPosition = new Vector3(0f, 0f, 3.5f);
+        transform.localRotation = Quaternion.Euler(0f, 180f, 0f);
+        evader.localPosition = new Vector3(0f, 0f, -3.5f);
+        evader.localRotation = Quaternion.Euler(0f, 0f, 0f);
         if (GetComponent<Rigidbody>() != null)
         {
             GetComponent<Rigidbody>().velocity = Vector3.zero;
@@ -257,9 +147,7 @@ public class ChaserAgent : MonoBehaviour
             evader.GetComponent<Rigidbody>().velocity = Vector3.zero;
             evader.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
         }
-        currentLaserShots = 0;
     }
-
 
     public abstract class DecisionTreeNode
     {
@@ -320,47 +208,9 @@ public class ChaserAgent : MonoBehaviour
                     throw new Exception("Invalid comparison operator");
                 }
             }
-            else if (condition == "LaserDistanceToEntity") // 新增条件：激光测距
-            {
-                if (args.Length < 2)
-                {
-                    throw new Exception("Invalid arguments for LaserDistanceToEntity condition");
-                }
-
-                string targetEntity = args[0]; // 目标实体，例如 "Evader"
-                float threshold = float.Parse(args[1]);
-
-                Transform targetTransform = GetEntityTransform(targetEntity, agent);
-
-                if (targetTransform == null)
-                {
-                    throw new Exception($"Invalid entity for LaserDistanceToEntity: {targetEntity}");
-                }
-
-                // 使用激光测距获取目标的距离
-                Vector3 sensorOrigin = agent.distanceSensor.position;
-                Vector3 sensorDirection = agent.distanceSensor.forward;
-
-                if (Physics.Raycast(sensorOrigin, sensorDirection, out RaycastHit hit, agent.sensorRange))
-                {
-                    if (hit.collider.CompareTag(targetEntity)) // 检查是否命中指定目标
-                    {
-                        float laserDistance = hit.distance;
-
-                        if (laserDistance < threshold)
-                        {
-                            return true;
-                        }
-                    }
-                }
-
-                // 如果没有击中目标或距离不符合，返回 false
-                return false;
-            }
 
             throw new Exception("Unknown condition");
         }
-
 
         private static Transform GetEntityTransform(string entityName, ChaserAgent agent)
         {
@@ -368,7 +218,6 @@ public class ChaserAgent : MonoBehaviour
             {
                 "self" => agent.transform,
                 "evader" => agent.evader,
-                "barrier" => agent.distanceSensor, // 假设障碍物由激光测距器检测
                 _ => throw new Exception($"Unknown entity: {entityName}")
             };
         }
@@ -379,9 +228,6 @@ public class ChaserAgent : MonoBehaviour
             {
                 case "Caught":
                     agent.Caught();
-                    break;
-                case "FireLaser":
-                    agent.FireLaser();
                     break;
                 case "MoveTowardsTarget":
                     agent.MoveTowardsTarget(agent.evader.position);
