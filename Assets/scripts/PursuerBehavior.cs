@@ -24,9 +24,7 @@ public class ChaserBehavior : MonoBehaviour
         LoadPathFromJson();
 
         if (waypoints.Count > 0)
-        {
             currentWaypointIndex = 0;
-        }
     }
 
     void Update()
@@ -77,10 +75,7 @@ public class ChaserBehavior : MonoBehaviour
             {
                 currentWaypointIndex++;
                 if (currentWaypointIndex >= waypoints.Count)
-                {
                     isFollowingEvader = true;
-                    Debug.Log("All waypoints reached. Now following evader.");
-                }
             }
             else
             {

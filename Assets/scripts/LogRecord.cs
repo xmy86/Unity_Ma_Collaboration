@@ -9,7 +9,6 @@ public class EntityLogger : MonoBehaviour
     [SerializeField] private Transform pursuer;
     [SerializeField] private Rigidbody pursuerRb;
     [SerializeField] private Transform target;
-    [SerializeField] private GameObject laser;
 
     private string logFilePath;
     [SerializeField] private float logTimeInterval = 0.1f;
@@ -22,6 +21,10 @@ public class EntityLogger : MonoBehaviour
             Directory.CreateDirectory(logDirectory);
         }
         logFilePath = GetMaxLogFilePath(logDirectory);
+
+        // Subscribe to log messages
+        Application.logMessageReceived += HandleLogMessage;
+
         StartCoroutine(LogEntityData());
     }
 
@@ -62,17 +65,37 @@ public class EntityLogger : MonoBehaviour
 
             string targetPosition = target.position.ToString();
 
-            bool isLaserActive = laser.activeSelf;
-
             string logEntry = $"Timestamp: {Time.time:F2}\n" +
                               $"Evader Position: {evaderPosition}, Velocity: {evaderVelocity}\n" +
                               $"Pursuer Position: {pursuerPosition}, Velocity: {pursuerVelocity}\n" +
-                              $"Target Position: {targetPosition}\n" +
-                              $"Laser Active: {isLaserActive}\n\n";
+                              $"Target Position: {targetPosition}\n\n";
 
             File.AppendAllText(logFilePath, logEntry);
 
             yield return new WaitForSeconds(logTimeInterval);
         }
+    }
+
+    private void HandleLogMessage(string logString, string stackTrace, LogType type)
+    {
+        // Only log messages of type Log or Error
+        if (type == LogType.Warning)
+        {
+            return;
+        }
+
+        string logEntry = $"[{type}] {logString}\n";
+        if (type == LogType.Error && !string.IsNullOrEmpty(stackTrace))
+        {
+            logEntry += $"StackTrace: {stackTrace}\n";
+        }
+
+        File.AppendAllText(logFilePath, logEntry);
+    }
+
+    private void OnDestroy()
+    {
+        // Unsubscribe from log messages to avoid memory leaks
+        Application.logMessageReceived -= HandleLogMessage;
     }
 }

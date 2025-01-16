@@ -15,16 +15,9 @@ public class EvaderBehavior : MonoBehaviour
     private void Start()
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
-        if (navMeshAgent == null)
-        {
-            Debug.LogError("NavMeshAgent component is missing!");
-            return;
-        }
 
         navMeshAgent.speed = moveSpeed;
         navMeshAgent.angularSpeed = turnSpeed;
-
-        playManager.GetComponent<PlayManager>().Initialize();
     }
 
     private void Update()
@@ -48,9 +41,7 @@ public class EvaderBehavior : MonoBehaviour
         }
 
         if (navMeshAgent != null)
-        {
             navMeshAgent.Warp(transform.position);
-        }
 
         hasCollided = false;
     }
@@ -58,26 +49,6 @@ public class EvaderBehavior : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "target")
-        {
-            HandleCollision(1f, "target");
-        }
-        else if (other.gameObject.tag == "wall")
-        {
-            HandleCollision(-0.1f, "wall");
-        }
-        else if (other.gameObject.tag == "pursuer")
-        {
-            HandleCollision(-0.3f, "pursuer");
-        }
-    }
-
-    private void HandleCollision(float reward, string tag)
-    {
-        if (!hasCollided)
-        {
-            Debug.Log($"Collision with {tag}. Reward: {reward}");
-            hasCollided = true;
-        }
-        playManager.GetComponent<PlayManager>().Initialize();
+            playManager.GetComponent<PlayManager>().Initialize();
     }
 }

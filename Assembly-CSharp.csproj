@@ -65,12 +65,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/scripts/LogRecord.cs" />
-    <Compile Include="Assets/scripts/targetBehavior.cs" />
     <Compile Include="Assets/scripts/PursuerBehavior.cs" />
     <Compile Include="Assets/scripts/PlayEditor.cs" />
     <Compile Include="Assets/scripts/EvaderBehavior.cs" />
-    <Compile Include="Assets/scripts/TimeManager.cs" />
     <Compile Include="Assets/scripts/PlayManager.cs" />
+    <Compile Include="Assets/scripts/TargetBehavior.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
