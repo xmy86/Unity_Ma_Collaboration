@@ -1,7 +1,7 @@
 {
   "waypoints": [
     {"x": 3.5, "y": 0, "z": 3.5},
-    {"x": 3.5, "y": 0, "z": 2.0}
+    {"x": 3.5, "y": 0, "z": 1.5}
   ],
   "finalAction": "FollowEvader",
   "captureDistance": 1.0
