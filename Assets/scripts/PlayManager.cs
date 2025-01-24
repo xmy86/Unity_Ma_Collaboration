@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayManager : MonoBehaviour
 {
     public int episodeCount = 0;
-    [SerializeField] private int maxEpisodes = 10;
+    [SerializeField] private int maxEpisodes = 9;
     [SerializeField] private bool debug = false;
     [SerializeField] private ChaserBehavior pursuerAgent;
     [SerializeField] private EvaderBehavior evaderAgent;

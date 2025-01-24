@@ -446,8 +446,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   episodeCount: 0
-  maxEpisodes: 16
-  debug: 1
+  maxEpisodes: 9
+  debug: 0
   pursuerAgent: {fileID: 180149143}
   evaderAgent: {fileID: 827356426}
   target: {fileID: 670398328}

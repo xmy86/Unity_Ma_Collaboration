@@ -15,7 +15,7 @@ public class EntityLogger : MonoBehaviour
 
     void Start()
     {
-        string logDirectory = Path.Combine(Application.dataPath, "../LLM_iteration/Log");
+        string logDirectory = Path.Combine(Application.dataPath, "../LLM_Decision/Log");
         if (!Directory.Exists(logDirectory))
         {
             Directory.CreateDirectory(logDirectory);

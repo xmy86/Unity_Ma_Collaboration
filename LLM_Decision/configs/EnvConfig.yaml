@@ -1,4 +1,14 @@
-# The path to the Unity executable/
+# LLM_Decision/configs/EnvConfig.yaml
+
 unity_executable_path: "/Applications/Unity/Hub/Editor/2022.3.50f1/Unity.app/Contents/MacOS/Unity"
 unity_project_path: "/Users/xumingyuan/Documents/pursuit_evasion_game"
 unity_execute_method: "PlayEditor.Play"
+
+log_dir: "LLM_Decision/Log"
+output_dir: "LLM_Decision/Trajectory"
+background_img: "LLM_Decision/NavMesh.png"
+extent:
+  - -4.166667
+  - 4.166667
+  - -4.166667
+  - 4.166667

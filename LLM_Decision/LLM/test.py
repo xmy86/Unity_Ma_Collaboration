@@ -2,7 +2,7 @@
 
 from openai import OpenAI
 
-client = OpenAI(api_key="sk-9c6f37dc2ee24781bddf9f5e4112494d", base_url="https://api.deepseek.com")
+client = OpenAI(api_key="sk-ccab4d4f392d4ee59a74a6f9e4334cc7", base_url="https://api.deepseek.com")
 messages=[
     {"role": "system", "content": "You are a helpful assistant"},
     {"role": "user", "content": "Hello"},
