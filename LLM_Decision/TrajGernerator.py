@@ -49,12 +49,20 @@ def _plot_episode_with_background(episode, episode_index, output_dir, background
     ax.set_xlabel("X Position")
     ax.set_ylabel("Z Position")
     ax.set_title(f"Episode {episode_index + 1}")
+    
+    ax.grid(True, which='both', linestyle='--', linewidth=0.5, alpha=0.7)
+    ax.set_xticks(np.arange(math.floor(extent[0]), math.ceil(extent[1]) + 1, 1))
+    ax.set_yticks(np.arange(math.floor(extent[2]), math.ceil(extent[3]) + 1, 1))
+    ax.axhline(0, color='black', linewidth=0.8)
+    ax.axvline(0, color='black', linewidth=0.8)
+    
     if len(evader_positions) > 0:
         ax.scatter(evader_positions[:, 0], evader_positions[:, 2], c='green', label='Evader Path', s=20)
         ax.plot(evader_positions[:, 0], evader_positions[:, 2], color="green", alpha=0.5)
     if len(pursuer_positions) > 0:
         ax.scatter(pursuer_positions[:, 0], pursuer_positions[:, 2], c='red', label='Pursuer Path', s=20)
         ax.plot(pursuer_positions[:, 0], pursuer_positions[:, 2], color="red", alpha=0.5)
+    
     ax.legend(loc="upper right")
     output_file = output_dir / f"episode_{episode_index + 1}.png"
     plt.savefig(output_file)

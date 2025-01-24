@@ -334,8 +334,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 286.5
-    y: 19
+    x: -1400.5
+    y: -41
     width: 1052.5
     height: 689.5
   m_SerializedDataModeController:
