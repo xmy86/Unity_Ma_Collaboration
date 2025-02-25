@@ -4,25 +4,28 @@ using UnityEngine.AI;
 
 public class TransporterBehavior : MovableAgent
 {
-    [SerializeField] new protected float moveSpeed = 4f;
-    [SerializeField] new protected float turnSpeed = 200f;
-    [SerializeField] new protected bool isHeuristicMode = false;
-    [SerializeField] private InterceptorBehavior pursuer;
-    [SerializeField] private GameObject playManager;
+    [SerializeField] new protected float _moveSpeed = 2f;
+    [SerializeField] new protected float _turnSpeed = 100f;
+    [SerializeField] new protected bool _isHeuristicMode = false;
     [SerializeField] private GameObject pickMark;
     public Vector3 realtimeWaypoint;
     public bool pickableTag = false;
 
     protected override void Start()
     {
-        navMeshAgent = GetComponent<NavMeshAgent>();
-        navMeshAgent.speed = moveSpeed;
-        navMeshAgent.angularSpeed = turnSpeed;
+        base.Start();
 
         if (pickMark != null)
         {
             pickMark.SetActive(false);
         }
+    }
+
+    protected override void SetMovementAttributes()
+    {
+        moveSpeed = _moveSpeed;
+        turnSpeed = _turnSpeed;
+        isHeuristicMode = _isHeuristicMode;
     }
 
     private void Update()
@@ -33,7 +36,7 @@ public class TransporterBehavior : MovableAgent
 
     private void HeuristicPickup()
     {
-        if (pickableTag && Input.GetKeyDown(KeyCode.F))
+        if (isHeuristicMode && pickableTag && Input.GetKeyDown(KeyCode.F))
         {
             Pickup();
         }
@@ -41,9 +44,11 @@ public class TransporterBehavior : MovableAgent
 
     public void Initialize()
     {
+        // Reset the position and rotation of the GameObject.
         transform.localPosition = new Vector3(0f, 0f, -3.5f);
         transform.localRotation = Quaternion.Euler(0f, 0f, 0f);
 
+        // Reset the velocity and angular velocity of the Rigidbody component.
         Rigidbody rb = GetComponent<Rigidbody>();
         if (rb != null)
         {
@@ -51,9 +56,11 @@ public class TransporterBehavior : MovableAgent
             rb.angularVelocity = Vector3.zero;
         }
 
+        // Reset the position of the NavMeshAgent component.
         if (navMeshAgent != null)
             navMeshAgent.Warp(transform.position);
 
+        // Hide the pick mark.
         if (pickMark != null)
         {
             pickMark.SetActive(false);
@@ -65,6 +72,18 @@ public class TransporterBehavior : MovableAgent
         if (other.gameObject.tag == "the_rescured")
         {
             pickableTag = true;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "the_rescured")
+        {
+            pickableTag = false;
+            if (pickMark != null)
+            {
+                pickMark.SetActive(false);
+            }
         }
     }
 

@@ -2,17 +2,19 @@
 using UnityEngine;
 using UnityEngine.AI;
 
-public class MovableAgent : MonoBehaviour
+public abstract class MovableAgent : MonoBehaviour
 {
-    // default move speed and turn speed
-    protected float moveSpeed = 2f;
-    protected float turnSpeed = 100f;
+    protected float moveSpeed;
+    protected float turnSpeed;
     protected NavMeshAgent navMeshAgent;
-    protected bool isHeuristicMode = false;
+    protected bool isHeuristicMode;
+
+    protected abstract void SetMovementAttributes();
     
     protected virtual void Start()
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
+        SetMovementAttributes();
         navMeshAgent.speed = moveSpeed;
         navMeshAgent.angularSpeed = turnSpeed;
     }

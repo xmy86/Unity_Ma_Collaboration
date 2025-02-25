@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "pursuit_evasion_game.sln"
+    "dotnet.defaultSolution": "Unity_Ma_Collaboration.sln"
 }
