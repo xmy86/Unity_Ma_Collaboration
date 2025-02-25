@@ -1,3 +1,10 @@
+task = '''
+While the green evader agent is moving towards the yellow target, 
+the red pusuer agent can autonomously plan a path based on the real-time position of the evader and the position of the yellow target, 
+bypass obstacles and fences, 
+and intercept and capture the evader.
+'''
+
 class LLMModelConfig:
     def __init__(self, api_key, base_url):
         self.api_key = api_key

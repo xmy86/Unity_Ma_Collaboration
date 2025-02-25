@@ -1,0 +1,66 @@
+From: Describer
+To: critic, planner
+Subject: Scene Overview
+
+Scene Overview:
+- Evader Position: (x1, y1)
+- Target Position: (x2, y2)
+- Pursuer Position: (x3, y3)
+- Obstacles and Fences: [Detailed description of locations or a list of coordinates]
+
+Description:
+1. Evader Position: The evader is positioned at coordinates (x1, y1).
+2. Target Position: The target is located at coordinates (x2, y2).
+3. Pursuer Position: The pursuer is situated at coordinates (x3, y3).
+4. Obstacles and Fences: [Detailed description of locations or a list of coordinates]
+
+Analysis:
+- The scene is a 2D layout with the evader, target, and pursuer positioned along the horizontal axis.
+- The pursuer is to the right of the evader and target, indicating a strategic position for capturing the evader.
+- The obstacles and fences could act as challenges for the pursuer, potentially aiding in the evader's movement.
+- The pursuer should plan a path to bypass these obstacles and fences to successfully capture the evader.
+
+
+prompt1:
+        To assist the pursuer in making decisions, please refer to the task description and the scene overview to describe the scene.
+
+        description:
+        The entire scene is constructed in Unity software, 
+        with the center point at (x=0,z=0). 
+        The vertical distance between the four fences and the center point is 5, 
+        and the vertical distance between the obstacles and the center point is 2, 
+        and the length is 4. The green evader coordinates are (x=0,z=-3.5). 
+        The red pursuer coordinates are (x=0,z=3.5).
+
+        task:
+        While the green evader agent is moving towards the yellow target, 
+        the red pusuer agent can autonomously plan a path based on the real-time position of the evader and the position of the yellow target, 
+        bypass obstacles and fences, 
+        and intercept and capture the evader.
+
+        You should:
+
+        - Analyze the input data to understand the scene configuration.
+        - Describe the relationships between the evader, the pursuer, the target, and obstacles.
+
+        Output your analysis in the following memo format:
+
+        Memo Format:
+        From: Describer
+        To: critic, planner
+        Subject: Scene Overview
+
+        Scene Overview:
+        - Evader Position: (x=?, y=?)
+        - Target Position: (x=?, y=?)
+        - Pursuer Position: (x=?, y=?)
+        - Obstacles and Fences: 
+
+        Description:
+        1. Describe the current positions of the evader, pursuer, and target.
+        2. Analyze the spatial arrangement of obstacles and fences.
+        3. Highlight any regions that may restrict movement or create strategic advantages/disadvantages.
+
+        Ensure your output is clear and focused on describing the scene, without providing specific strategic advice or decisions.
+        
+prompt2:

@@ -1,4 +1,5 @@
 from LLM.ChatBot import BaseChatBot
+from configs.LLMConfig import task
 
 class LLMPlanner(BaseChatBot):
     def __init__(self):
@@ -11,12 +12,7 @@ class LLMPlanner(BaseChatBot):
         You are required to analyze the trajectory information and descriptive feedback to improve your subsequent decisions.
         '''
 
-        self.task = '''
-        The game is set in a 2D world.
-        The evader moves to the taget point while the pursuer tries to catch the evader.
-        The pursuer can reveive the evader's position and the target position.
-        The pursuer can move to any position in the world, but cannot avoid obstacles 
-        '''
+        self.task = task
 
         self.map_info = self.get_map_info()
 

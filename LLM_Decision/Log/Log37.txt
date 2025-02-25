@@ -1,0 +1,1532 @@
+Timestamp: 0.00
+Evader Position: (-3.01, 0.00, -2.66), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (9.37, 0.00, 3.50), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 0.10
+Evader Position: (-3.01, 0.04, -2.66), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (9.35, -0.05, 3.47), Velocity: (-0.53, -0.28, -0.87)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 0.20
+Evader Position: (-3.01, 0.04, -2.66), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (9.16, -0.07, 3.34), Velocity: (-2.71, -0.21, -0.94)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 0.30
+Evader Position: (-3.01, 0.04, -2.66), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (8.78, -0.10, 3.34), Velocity: (-3.47, -0.20, 0.32)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 0.40
+Evader Position: (-3.01, 0.04, -2.66), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (8.40, -0.12, 3.35), Velocity: (-3.53, -0.21, -0.05)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 0.50
+Evader Position: (-3.01, 0.04, -2.66), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (8.02, -0.14, 3.37), Velocity: (-3.39, -0.20, 0.33)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 0.60
+Evader Position: (-3.01, 0.04, -2.66), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (7.61, -0.17, 3.38), Velocity: (-3.34, -0.19, -0.04)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 0.70
+Evader Position: (-3.01, 0.04, -2.66), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (7.24, -0.19, 3.40), Velocity: (-2.94, -0.20, 0.26)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 0.80
+Evader Position: (-3.01, 0.04, -2.66), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.88, -0.22, 3.41), Velocity: (-2.80, -0.19, -0.04)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 0.90
+Evader Position: (-3.01, 0.04, -2.66), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.54, -0.24, 3.42), Velocity: (-2.34, -0.27, 0.10)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 1.00
+Evader Position: (-3.01, 0.04, -2.66), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (-0.01, 0.00, 0.01)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 1.10
+Evader Position: (-3.01, 0.04, -2.66), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 1.20
+Evader Position: (-2.76, 0.04, -2.70), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 1.30
+Evader Position: (-2.40, 0.04, -2.87), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 1.40
+Evader Position: (-2.12, 0.04, -3.16), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 1.50
+Evader Position: (-1.88, 0.04, -3.48), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 1.60
+Evader Position: (-1.64, 0.04, -3.81), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 1.71
+Evader Position: (-1.41, 0.05, -4.13), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 1.81
+Evader Position: (-1.10, 0.04, -4.39), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 1.91
+Evader Position: (-0.72, 0.02, -4.52), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 2.01
+Evader Position: (-0.32, 0.01, -4.52), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 2.11
+Evader Position: (0.05, 0.01, -4.38), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 2.21
+Evader Position: (0.39, 0.01, -4.16), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 2.31
+Evader Position: (0.73, 0.01, -3.95), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 2.41
+Evader Position: (1.07, 0.01, -3.73), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 2.51
+Evader Position: (1.40, 0.01, -3.52), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 2.61
+Evader Position: (1.74, 0.01, -3.30), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 2.71
+Evader Position: (1.93, 0.01, -3.21), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 2.81
+Evader Position: (1.93, 0.01, -3.21), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 2.91
+Evader Position: (1.93, 0.01, -3.21), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 3.01
+Evader Position: (1.93, 0.01, -3.21), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 3.11
+Evader Position: (1.93, 0.01, -3.21), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 3.21
+Evader Position: (2.10, 0.01, -3.51), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 3.31
+Evader Position: (2.15, 0.01, -3.60), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 3.41
+Evader Position: (2.15, 0.01, -3.60), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 3.51
+Evader Position: (2.16, 0.01, -3.61), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 3.61
+Evader Position: (2.36, 0.01, -3.96), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 3.71
+Evader Position: (2.37, 0.01, -3.99), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 3.81
+Evader Position: (2.37, 0.01, -3.99), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 3.91
+Evader Position: (2.37, 0.01, -3.99), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 4.01
+Evader Position: (2.37, 0.01, -3.99), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 4.11
+Evader Position: (2.37, 0.01, -3.99), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 4.21
+Evader Position: (2.37, 0.01, -3.99), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 4.31
+Evader Position: (2.37, 0.01, -3.99), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 4.41
+Evader Position: (2.37, 0.01, -3.99), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 4.51
+Evader Position: (2.37, 0.01, -3.99), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 4.61
+Evader Position: (2.37, 0.01, -3.99), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 4.71
+Evader Position: (2.37, 0.01, -3.99), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 4.81
+Evader Position: (2.37, 0.01, -3.99), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 4.91
+Evader Position: (2.37, 0.01, -3.99), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 5.01
+Evader Position: (2.37, 0.01, -3.99), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 5.11
+Evader Position: (2.37, 0.01, -3.99), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 5.22
+Evader Position: (2.37, 0.01, -3.99), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 5.32
+Evader Position: (2.37, 0.01, -3.99), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 5.42
+Evader Position: (2.44, 0.01, -3.94), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 5.52
+Evader Position: (2.72, 0.01, -3.65), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 5.62
+Evader Position: (2.98, 0.01, -3.35), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 5.72
+Evader Position: (3.25, 0.01, -3.05), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 5.82
+Evader Position: (3.51, 0.01, -2.75), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 5.92
+Evader Position: (3.78, 0.01, -2.45), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 6.02
+Evader Position: (4.01, 0.01, -2.19), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 6.12
+Evader Position: (4.01, 0.01, -2.19), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (-0.05, 0.00, -0.01)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 6.22
+Evader Position: (4.01, 0.01, -2.19), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 6.32
+Evader Position: (4.01, 0.01, -2.19), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 6.42
+Evader Position: (4.01, 0.01, -2.19), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 6.52
+Evader Position: (4.01, 0.01, -2.19), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 6.62
+Evader Position: (4.01, 0.01, -2.19), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 6.72
+Evader Position: (4.01, 0.01, -2.19), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 6.82
+Evader Position: (4.01, 0.01, -2.19), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 6.92
+Evader Position: (4.01, 0.01, -2.19), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 7.02
+Evader Position: (3.72, 0.01, -2.42), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 7.12
+Evader Position: (3.39, 0.01, -2.64), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 7.22
+Evader Position: (3.05, 0.01, -2.86), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 7.32
+Evader Position: (2.72, 0.01, -3.08), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 7.42
+Evader Position: (2.40, 0.01, -3.33), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 7.52
+Evader Position: (2.19, 0.01, -3.66), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 7.62
+Evader Position: (2.11, 0.01, -4.05), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 7.72
+Evader Position: (2.09, 0.01, -4.24), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 7.82
+Evader Position: (2.09, 0.01, -4.24), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 7.92
+Evader Position: (2.09, 0.01, -4.24), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 8.02
+Evader Position: (2.09, 0.01, -4.24), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 8.12
+Evader Position: (2.09, 0.01, -4.24), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 8.22
+Evader Position: (2.09, 0.01, -4.24), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 8.32
+Evader Position: (2.09, 0.01, -4.24), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 8.42
+Evader Position: (2.09, 0.01, -4.24), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 8.52
+Evader Position: (2.09, 0.01, -4.24), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 8.62
+Evader Position: (2.14, 0.01, -4.24), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 8.72
+Evader Position: (2.53, 0.01, -4.30), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 8.82
+Evader Position: (2.53, 0.01, -4.30), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 8.92
+Evader Position: (2.53, 0.01, -4.30), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 9.02
+Evader Position: (2.53, 0.01, -4.30), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 9.13
+Evader Position: (2.53, 0.01, -4.30), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 9.23
+Evader Position: (2.53, 0.01, -4.30), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 9.33
+Evader Position: (2.53, 0.01, -4.30), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 9.43
+Evader Position: (2.53, 0.01, -4.30), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, -0.13, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 9.53
+Evader Position: (2.53, 0.01, -4.30), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 9.63
+Evader Position: (2.53, 0.01, -4.30), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 9.73
+Evader Position: (2.53, 0.01, -4.30), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 9.83
+Evader Position: (2.53, 0.01, -4.30), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 9.93
+Evader Position: (2.53, 0.01, -4.30), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.25, 3.45), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 1
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 2
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 3
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 4
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 5
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 6
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 7
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 8
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 9
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 10
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 11
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 12
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 13
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 14
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 15
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 16
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 17
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 18
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 19
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 20
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 21
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 22
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 23
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 24
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 25
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 26
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 27
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 28
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 29
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 30
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 31
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 32
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 33
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 34
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 35
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 36
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 37
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 38
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 39
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 40
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 41
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 42
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 43
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 44
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 45
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 46
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 47
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 48
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 49
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 50
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 51
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 52
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+Timestamp: 10.03
+Evader Position: (2.53, 0.01, -4.30), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (0.00, 0.00, 3.50), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 53
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 54
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 55
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 56
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 57
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 58
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 59
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 60
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 61
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 62
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 63
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 64
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 65
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 66
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 67
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 68
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 69
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 70
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 71
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 72
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 73
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 74
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 75
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 76
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 77
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 78
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 79
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 80
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 81
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 82
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 83
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 84
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 85
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 86
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 87
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 88
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 89
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 90
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 91
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 92
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 93
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 94
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 95
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 96
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 97
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 98
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 99
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 100
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 101
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 102
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 103
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 104
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 105
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 106
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 107
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 108
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 109
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 110
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 111
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 112
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 113
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 114
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 115
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 116
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 117
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 118
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 119
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 120
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 121
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 122
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 123
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 124
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 125
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 126
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 127
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 128
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 129
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 130
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 131
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 132
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 133
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 134
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 135
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 136
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 137
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 138
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 139
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 140
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 141
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 142
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 143
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 144
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 145
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 146
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 147
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 148
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 149
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 150
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 151
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 152
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 153
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 154
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 155
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 156
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 157
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 158
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 159
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 160
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+Timestamp: 10.13
+Evader Position: (2.53, 0.01, -4.30), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (0.00, 0.00, 3.50), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 161
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 162
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 163
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 164
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 165
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 166
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 167
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 168
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 169
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 170
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 171
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 172
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 173
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 174
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 175
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 176
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 177
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 178
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 179
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 180
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 181
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 182
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 183
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 184
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 185
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 186
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 187
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 188
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 189
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 190
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 191
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 192
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 193
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 194
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 195
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 196
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 197
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 198
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 199
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 200
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 201
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 202
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 203
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 204
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 205
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 206
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 207
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 208
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 209
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 210
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 211
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 212
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 213
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 214
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 215
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 216
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 217
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 218
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 219
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 220
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 221
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 222
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 223
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 224
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 225
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 226
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 227
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 228
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 229
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 230
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 231
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 232
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 233
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 234
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 235
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 236
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 237
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 238
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 239
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 240
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 241
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 242
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 243
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 244
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 245
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 246
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 247
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 248
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 249
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 250
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 251
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 252
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 253
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 254
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 255
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 256
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 257
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 258
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 259
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 260
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 261
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 262
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 263
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 264
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 265
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 266
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 267
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 268
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 269
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 270
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 271
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 272
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 273
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 274
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 275
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+Timestamp: 10.23
+Evader Position: (2.53, 0.01, -4.30), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (0.00, 0.00, 3.50), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 276
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 277
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 278
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 279
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 280
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 281
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 282
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 283
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 284
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 285
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 286
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 287
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 288
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 289
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 290
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 291
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 292
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 293
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 294
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 295
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 296
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 297
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 298
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 299
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 300
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 301
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 302
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 303
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 304
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 305
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 306
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 307
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 308
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 309
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 310
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 311
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 312
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 313
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 314
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 315
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 316
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 317
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 318
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 319
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 320
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 321
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 322
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 323
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 324
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 325
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 326
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 327
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 328
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 329
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 330
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 331
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 332
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 333
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 334
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 335
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 336
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 337
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 338
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+[Log] Time's up! Episode restart.
+[Log] Starting Episode 339
+[Exception] NullReferenceException: Object reference not set to an instance of an object

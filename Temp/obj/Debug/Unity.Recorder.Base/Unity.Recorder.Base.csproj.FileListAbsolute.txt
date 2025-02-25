@@ -1,0 +1,13 @@
+/Users/xumingyuan/Documents/pursuit_evasion_game/Temp/bin/Debug/Unity.Recorder.Base.deps.json
+/Users/xumingyuan/Documents/pursuit_evasion_game/Temp/bin/Debug/Unity.Recorder.Base.dll
+/Users/xumingyuan/Documents/pursuit_evasion_game/Temp/bin/Debug/Unity.Recorder.Base.pdb
+/Users/xumingyuan/Documents/pursuit_evasion_game/Temp/bin/Debug/UnityEditor.UI.pdb
+/Users/xumingyuan/Documents/pursuit_evasion_game/Temp/bin/Debug/UnityEngine.UI.pdb
+/Users/xumingyuan/Documents/pursuit_evasion_game/Temp/bin/Debug/UnityEditor.TestRunner.pdb
+/Users/xumingyuan/Documents/pursuit_evasion_game/Temp/bin/Debug/UnityEngine.TestRunner.pdb
+/Users/xumingyuan/Documents/pursuit_evasion_game/Temp/obj/Debug/Unity.Recorder.Base/Unity.Recorder.Base.csproj.AssemblyReference.cache
+/Users/xumingyuan/Documents/pursuit_evasion_game/Temp/obj/Debug/Unity.Recorder.Base/Unity.Recorder.Base.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xumingyuan/Documents/pursuit_evasion_game/Temp/obj/Debug/Unity.Recorder.Base/Unity.Recorder.Base.csproj.CoreCompileInputs.cache
+/Users/xumingyuan/Documents/pursuit_evasion_game/Temp/obj/Debug/Unity.Recorder.Base/Unity.Recorder.Base.csproj.CopyComplete
+/Users/xumingyuan/Documents/pursuit_evasion_game/Temp/obj/Debug/Unity.Recorder.Base/Unity.Recorder.Base.dll
+/Users/xumingyuan/Documents/pursuit_evasion_game/Temp/obj/Debug/Unity.Recorder.Base/Unity.Recorder.Base.pdb

@@ -1,0 +1,425 @@
+Timestamp: 0.00
+Evader Position: (-3.01, 0.00, -2.66), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (9.37, 0.00, 3.50), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 0.10
+Evader Position: (-3.01, 0.04, -2.66), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (9.36, -0.05, 3.47), Velocity: (-0.46, -0.31, -0.78)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 0.20
+Evader Position: (-3.01, 0.04, -2.66), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (9.16, -0.07, 3.34), Velocity: (-2.70, -0.21, -0.93)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 0.30
+Evader Position: (-3.01, 0.04, -2.66), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (8.79, -0.10, 3.34), Velocity: (-3.52, -0.21, 0.32)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 0.40
+Evader Position: (-3.01, 0.04, -2.66), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (8.41, -0.12, 3.35), Velocity: (-3.47, -0.20, -0.04)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 0.50
+Evader Position: (-3.01, 0.04, -2.66), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (8.02, -0.14, 3.37), Velocity: (-3.40, -0.20, 0.33)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 0.60
+Evader Position: (-3.01, 0.04, -2.66), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (7.60, -0.17, 3.39), Velocity: (-3.40, -0.18, -0.05)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 0.70
+Evader Position: (-3.01, 0.04, -2.66), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (7.21, -0.19, 3.40), Velocity: (-3.83, -0.22, 0.35)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 0.81
+Evader Position: (-3.01, 0.04, -2.66), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.86, -0.21, 3.41), Velocity: (-2.32, -0.15, -0.03)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 0.91
+Evader Position: (-3.01, 0.04, -2.66), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.49, -0.24, 3.43), Velocity: (-2.33, -0.15, 0.20)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 1.01
+Evader Position: (-3.01, 0.04, -2.66), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 1.11
+Evader Position: (-3.01, 0.04, -2.66), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 1.21
+Evader Position: (-3.01, 0.04, -2.66), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 1.31
+Evader Position: (-3.01, 0.04, -2.66), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 1.41
+Evader Position: (-2.71, 0.04, -2.92), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 1.51
+Evader Position: (-2.42, 0.05, -3.20), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 1.61
+Evader Position: (-2.14, 0.05, -3.48), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 1.71
+Evader Position: (-1.85, 0.05, -3.76), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 1.81
+Evader Position: (-1.51, 0.05, -3.97), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 1.91
+Evader Position: (-1.12, 0.03, -4.05), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 2.01
+Evader Position: (-0.72, 0.01, -4.05), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 2.11
+Evader Position: (-0.32, 0.01, -4.05), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 2.21
+Evader Position: (0.08, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 2.31
+Evader Position: (0.48, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 2.41
+Evader Position: (0.89, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 2.51
+Evader Position: (1.29, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 2.61
+Evader Position: (1.69, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 2.71
+Evader Position: (2.09, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 2.81
+Evader Position: (2.24, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 2.91
+Evader Position: (2.24, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 3.01
+Evader Position: (2.24, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 3.11
+Evader Position: (2.24, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 3.21
+Evader Position: (2.43, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 3.31
+Evader Position: (2.75, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 3.41
+Evader Position: (2.75, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 3.51
+Evader Position: (2.75, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 3.61
+Evader Position: (2.75, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 3.71
+Evader Position: (2.75, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 3.81
+Evader Position: (2.75, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 3.91
+Evader Position: (2.75, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 4.01
+Evader Position: (2.75, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 4.11
+Evader Position: (2.75, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 4.24
+Evader Position: (2.75, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.15, 0.00, -0.15)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 4.34
+Evader Position: (2.75, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 4.44
+Evader Position: (2.75, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 4.54
+Evader Position: (2.75, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 4.64
+Evader Position: (2.75, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 4.74
+Evader Position: (2.75, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 4.84
+Evader Position: (2.75, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 4.94
+Evader Position: (2.75, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 5.04
+Evader Position: (2.75, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 5.14
+Evader Position: (2.75, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 5.25
+Evader Position: (2.75, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 5.35
+Evader Position: (2.75, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 5.45
+Evader Position: (2.75, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 5.55
+Evader Position: (2.75, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 5.65
+Evader Position: (2.75, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 5.75
+Evader Position: (2.75, 0.01, -4.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 5.85
+Evader Position: (2.51, 0.01, -3.78), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 5.95
+Evader Position: (2.25, 0.01, -3.48), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.51, -0.24, 3.42), Velocity: (0.10, 0.00, -0.12)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 6.05
+Evader Position: (1.99, 0.01, -3.18), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 6.15
+Evader Position: (1.72, 0.01, -2.87), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 6.25
+Evader Position: (1.47, 0.01, -2.56), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 6.35
+Evader Position: (1.32, 0.01, -2.19), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 6.45
+Evader Position: (1.31, 0.01, -1.79), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 6.55
+Evader Position: (1.44, 0.01, -1.41), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 6.65
+Evader Position: (1.68, 0.01, -1.10), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 6.75
+Evader Position: (2.02, 0.01, -0.89), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 6.85
+Evader Position: (2.42, 0.01, -0.81), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 6.95
+Evader Position: (2.81, 0.01, -0.87), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 7.05
+Evader Position: (3.16, 0.01, -1.06), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 7.15
+Evader Position: (3.43, 0.01, -1.36), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 7.25
+Evader Position: (3.57, 0.01, -1.73), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 7.35
+Evader Position: (3.59, 0.01, -2.13), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 7.45
+Evader Position: (3.59, 0.01, -2.53), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 7.55
+Evader Position: (3.59, 0.01, -2.93), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 7.65
+Evader Position: (3.59, 0.01, -3.34), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 7.75
+Evader Position: (3.59, 0.01, -3.74), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 7.85
+Evader Position: (3.59, 0.01, -4.14), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 7.95
+Evader Position: (3.59, 0.01, -4.45), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 8.05
+Evader Position: (3.59, 0.01, -4.45), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 8.16
+Evader Position: (3.59, 0.01, -4.45), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 8.26
+Evader Position: (3.59, 0.01, -4.45), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 8.36
+Evader Position: (3.59, 0.01, -4.45), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+
+Timestamp: 8.46
+Evader Position: (3.59, 0.01, -4.45), Velocity: (0.00, 0.00, 0.00)
+Pursuer Position: (6.50, -0.24, 3.42), Velocity: (0.00, 0.00, 0.00)
+Target Position: (2.66, 0.00, -4.18)
+

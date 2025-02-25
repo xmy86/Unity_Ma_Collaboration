@@ -1,0 +1,13 @@
+/Users/xumingyuan/Documents/pursuit_evasion_game/Temp/bin/Debug/Unity.TextMeshPro.deps.json
+/Users/xumingyuan/Documents/pursuit_evasion_game/Temp/bin/Debug/Unity.TextMeshPro.dll
+/Users/xumingyuan/Documents/pursuit_evasion_game/Temp/bin/Debug/Unity.TextMeshPro.pdb
+/Users/xumingyuan/Documents/pursuit_evasion_game/Temp/bin/Debug/UnityEditor.UI.pdb
+/Users/xumingyuan/Documents/pursuit_evasion_game/Temp/bin/Debug/UnityEngine.UI.pdb
+/Users/xumingyuan/Documents/pursuit_evasion_game/Temp/bin/Debug/UnityEditor.TestRunner.pdb
+/Users/xumingyuan/Documents/pursuit_evasion_game/Temp/bin/Debug/UnityEngine.TestRunner.pdb
+/Users/xumingyuan/Documents/pursuit_evasion_game/Temp/obj/Debug/Unity.TextMeshPro/Unity.TextMeshPro.csproj.AssemblyReference.cache
+/Users/xumingyuan/Documents/pursuit_evasion_game/Temp/obj/Debug/Unity.TextMeshPro/Unity.TextMeshPro.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xumingyuan/Documents/pursuit_evasion_game/Temp/obj/Debug/Unity.TextMeshPro/Unity.TextMeshPro.csproj.CoreCompileInputs.cache
+/Users/xumingyuan/Documents/pursuit_evasion_game/Temp/obj/Debug/Unity.TextMeshPro/Unity.TextMeshPro.csproj.CopyComplete
+/Users/xumingyuan/Documents/pursuit_evasion_game/Temp/obj/Debug/Unity.TextMeshPro/Unity.TextMeshPro.dll
+/Users/xumingyuan/Documents/pursuit_evasion_game/Temp/obj/Debug/Unity.TextMeshPro/Unity.TextMeshPro.pdb

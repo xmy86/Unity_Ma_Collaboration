@@ -4,11 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - target
   - wall
   - evader
   - pursuer
   - barrier
+  - the_rescured
   layers:
   - Default
   - TransparentFX
